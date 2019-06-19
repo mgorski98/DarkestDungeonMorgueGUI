@@ -1,0 +1,548 @@
+[
+  {
+    "QuirkName": "Beast Hater",
+    "QType": 0,
+    "LockedIn": false,
+    "QuirkDescription": "+15% DMG and -15% Stress vs Beast"
+  },
+  {
+    "QuirkName": "Beast Slayer",
+    "QType": 0,
+    "LockedIn": false,
+    "QuirkDescription": "+10 ACC and +5% CRIT vs Beast"
+  },
+  {
+    "QuirkName": "Clotter",
+    "QType": 0,
+    "LockedIn": false,
+    "QuirkDescription": "+15% Bleed Resist"
+  },
+  {
+    "QuirkName": "Clutch Hitter",
+    "QType": 0,
+    "LockedIn": false,
+    "QuirkDescription": "+5% CRIT if HP below 50%"
+  },
+  {
+    "QuirkName": "Cove Adventurer",
+    "QType": 0,
+    "LockedIn": false,
+    "QuirkDescription": "-20% Stress in Cove"
+  },
+  {
+    "QuirkName": "Deadly",
+    "QType": 0,
+    "LockedIn": false,
+    "QuirkDescription": "+2% CRIT"
+  },
+  {
+    "QuirkName": "Eagle Eye",
+    "QType": 0,
+    "LockedIn": false,
+    "QuirkDescription": "+5% CRIT Ranged Skills"
+  },
+  {
+    "QuirkName": "Early Riser",
+    "QType": 0,
+    "LockedIn": false,
+    "QuirkDescription": "+2 SPD if Torch above 75"
+  },
+  {
+    "QuirkName": "Eldritch Hater",
+    "QType": 0,
+    "LockedIn": false,
+    "QuirkDescription": "+15% DMG and -15% Stress vs Eldritch"
+  },
+  {
+    "QuirkName": "Eldritch Slayer",
+    "QType": 0,
+    "LockedIn": false,
+    "QuirkDescription": "+10 ACC and +5% CRIT vs Eldritch"
+  },
+  {
+    "QuirkName": "Evasive",
+    "QType": 0,
+    "LockedIn": false,
+    "QuirkDescription": "+5 DODGE"
+  },
+  {
+    "QuirkName": "Gifted",
+    "QType": 0,
+    "LockedIn": false,
+    "QuirkDescription": "+20% Healing Received"
+  },
+  {
+    "QuirkName": "Gothic",
+    "QType": 0,
+    "LockedIn": false,
+    "QuirkDescription": "Wyrd Reconstruction: +25% Healing Received"
+  },
+  {
+    "QuirkName": "Hard Noggin",
+    "QType": 0,
+    "LockedIn": false,
+    "QuirkDescription": "+15% Stun Resist"
+  },
+  {
+    "QuirkName": "Hippocratic",
+    "QType": 0,
+    "LockedIn": false,
+    "QuirkDescription": "+20% Healing Skills"
+  },
+  {
+    "QuirkName": "Irrepressible",
+    "QType": 0,
+    "LockedIn": false,
+    "QuirkDescription": "+5% Virtue Chance"
+  },
+  {
+    "QuirkName": "Last Gasp",
+    "QType": 0,
+    "LockedIn": false,
+    "QuirkDescription": "+1 SPD if HP below 50%"
+  },
+  {
+    "QuirkName": "Lurker",
+    "QType": 0,
+    "LockedIn": false,
+    "QuirkDescription": "+10% DMG if Torch below 26"
+  },
+  {
+    "QuirkName": "Luminous",
+    "QType": 0,
+    "LockedIn": false,
+    "QuirkDescription": "+2 SPD, +5 DODGE"
+  },
+  {
+    "QuirkName": "Mankind Hater",
+    "QType": 0,
+    "LockedIn": false,
+    "QuirkDescription": "+15% DMG and -15% Stress vs Human"
+  },
+  {
+    "QuirkName": "Man Slayer",
+    "QType": 0,
+    "LockedIn": false,
+    "QuirkDescription": "+10 ACC and +5% CRIT vs Human"
+  },
+  {
+    "QuirkName": "Musical",
+    "QType": 0,
+    "LockedIn": false,
+    "QuirkDescription": "Inspiring Tune: +25% Stress Heal Received"
+  },
+  {
+    "QuirkName": "Natural Eye",
+    "QType": 0,
+    "LockedIn": false,
+    "QuirkDescription": "+5 ACC Ranged Skills"
+  },
+  {
+    "QuirkName": "Natural Swing",
+    "QType": 0,
+    "LockedIn": false,
+    "QuirkDescription": "+5 ACC"
+  },
+  {
+    "QuirkName": "Night Owl",
+    "QType": 0,
+    "LockedIn": false,
+    "QuirkDescription": "+2 SPD if Torch below 26"
+  },
+  {
+    "QuirkName": "On Guard",
+    "QType": 0,
+    "LockedIn": false,
+    "QuirkDescription": "+4 SPD and +5 DODGE on First Round"
+  },
+  {
+    "QuirkName": "Photomania",
+    "QType": 0,
+    "LockedIn": false,
+    "QuirkDescription": "-20% Stress if Torch above 75"
+  },
+  {
+    "QuirkName": "Precise Striker",
+    "QType": 0,
+    "LockedIn": false,
+    "QuirkDescription": "+5% CRIT Melee Skills"
+  },
+  {
+    "QuirkName": "Quickdraw",
+    "QType": 0,
+    "LockedIn": false,
+    "QuirkDescription": "+4 SPD on First Round"
+  },
+  {
+    "QuirkName": "Quick Reflexes",
+    "QType": 0,
+    "LockedIn": false,
+    "QuirkDescription": "+2 SPD"
+  },
+  {
+    "QuirkName": "Resilient",
+    "QType": 0,
+    "LockedIn": false,
+    "QuirkDescription": "+10% Stress Heal Received"
+  },
+  {
+    "QuirkName": "Robust",
+    "QType": 0,
+    "LockedIn": false,
+    "QuirkDescription": "+15% Disease Resist"
+  },
+  {
+    "QuirkName": "Ruins Adventurer",
+    "QType": 0,
+    "LockedIn": false,
+    "QuirkDescription": "-20% Stress in Ruins"
+  },
+  {
+    "QuirkName": "Second Wind",
+    "QType": 0,
+    "LockedIn": false,
+    "QuirkDescription": "+10% DMG if HP below 50%"
+  },
+  {
+    "QuirkName": "Skilled Gambler",
+    "QType": 0,
+    "LockedIn": false,
+    "QuirkDescription": "+12.9% chance of winning money and +13.3% chance of winning trinkets while Gambling"
+  },
+  {
+    "QuirkName": "Slugger",
+    "QType": 0,
+    "LockedIn": false,
+    "QuirkDescription": "+10% DMG Melee Skills"
+  },
+  {
+    "QuirkName": "Spiritual",
+    "QType": 0,
+    "LockedIn": false,
+    "QuirkDescription": "Divine Grace, Divine Comfort: +25% Healing Received"
+  },
+  {
+    "QuirkName": "Steady",
+    "QType": 0,
+    "LockedIn": false,
+    "QuirkDescription": "-10% Stress"
+  },
+  {
+    "QuirkName": "Stress Faster",
+    "QType": 0,
+    "LockedIn": false,
+    "QuirkDescription": "-100% Food Consumed if Stress above 50"
+  },
+  {
+    "QuirkName": "Thick Blooded",
+    "QType": 0,
+    "LockedIn": false,
+    "QuirkDescription": "+10% Blight Resist"
+  },
+  {
+    "QuirkName": "Tough",
+    "QType": 0,
+    "LockedIn": false,
+    "QuirkDescription": "+10% MAX HP"
+  },
+  {
+    "QuirkName": "Hard Skinned",
+    "QType": 0,
+    "LockedIn": false,
+    "QuirkDescription": "+10% PROT"
+  },
+  {
+    "QuirkName": "Unholy Eater",
+    "QType": 0,
+    "LockedIn": false,
+    "QuirkDescription": "+15% DMG and -15% Stress vs Unholy"
+  },
+  {
+    "QuirkName": "Unholy Slayer",
+    "QType": 0,
+    "LockedIn": false,
+    "QuirkDescription": "+10 ACC and +5% CRIT vs Unholy"
+  },
+  {
+    "QuirkName": "Unerring",
+    "QType": 0,
+    "LockedIn": false,
+    "QuirkDescription": "+10% DMG Ranged Skills"
+  },
+  {
+    "QuirkName": "Unyielding",
+    "QType": 0,
+    "LockedIn": false,
+    "QuirkDescription": "+10% Death Blow Resist"
+  },
+  {
+    "QuirkName": "Warrens Adventurer",
+    "QType": 0,
+    "LockedIn": false,
+    "QuirkDescription": "-20% Stress in Warrens"
+  },
+  {
+    "QuirkName": "Warrior of Light",
+    "QType": 0,
+    "LockedIn": false,
+    "QuirkDescription": "+10% DMG if Torch above 75"
+  },
+  {
+    "QuirkName": "Weald Adventurer",
+    "QType": 0,
+    "LockedIn": false,
+    "QuirkDescription": "-20% Stress in Weald"
+  },
+  {
+    "QuirkName": "Corvid's Eye",
+    "QType": 0,
+    "LockedIn": false,
+    "QuirkDescription": "+8 ACC, +8% Scouting Chance"
+  },
+  {
+    "QuirkName": "Corvid's Grace",
+    "QType": 0,
+    "LockedIn": false,
+    "QuirkDescription": "+6 DODGE, +25% Move Resist"
+  },
+  {
+    "QuirkName": "Corvid's Resilience",
+    "QType": 0,
+    "LockedIn": false,
+    "QuirkDescription": "+33% Disease Resist"
+  },
+  {
+    "QuirkName": "Prismatic Isolation",
+    "QType": 0,
+    "LockedIn": false,
+    "QuirkDescription": "+25% Debuff Resist"
+  },
+  {
+    "QuirkName": "Prismatic Purity",
+    "QType": 0,
+    "LockedIn": false,
+    "QuirkDescription": "+25% Blight Resist"
+  },
+  {
+    "QuirkName": "Prismatic Solidity",
+    "QType": 0,
+    "LockedIn": false,
+    "QuirkDescription": "+25% Stun Resist"
+  },
+  {
+    "QuirkName": "Prismatic Stability",
+    "QType": 0,
+    "LockedIn": false,
+    "QuirkDescription": "+25% Move Resist"
+  },
+  {
+    "QuirkName": "Prismatic Coagulation",
+    "QType": 0,
+    "LockedIn": false,
+    "QuirkDescription": "+25% Bleed Resist"
+  },
+  {
+    "QuirkName": "Prismatic Calm",
+    "QType": 0,
+    "LockedIn": false,
+    "QuirkDescription": "-30% Stress"
+  },
+  {
+    "QuirkName": "Prismatic Force",
+    "QType": 0,
+    "LockedIn": false,
+    "QuirkDescription": "+15% DMG"
+  },
+  {
+    "QuirkName": "Prismatic Speed",
+    "QType": 0,
+    "LockedIn": false,
+    "QuirkDescription": "+3 SPD"
+  },
+  {
+    "QuirkName": "Prismatic Precision",
+    "QType": 0,
+    "LockedIn": false,
+    "QuirkDescription": "+4% CRIT"
+  },
+  {
+    "QuirkName": "Prismatic Eye",
+    "QType": 0,
+    "LockedIn": false,
+    "QuirkDescription": "+8 ACC"
+  },
+  {
+    "QuirkName": "Husk Slayer",
+    "QType": 0,
+    "LockedIn": false,
+    "QuirkDescription": "+10 ACC and +5% CRIT vs Husk"
+  },
+  {
+    "QuirkName": "Scythemaster",
+    "QType": 0,
+    "LockedIn": false,
+    "QuirkDescription": "+15% DMG vs Husk"
+  },
+  {
+    "QuirkName": "Armor Tinker",
+    "QType": 0,
+    "LockedIn": false,
+    "QuirkDescription": "-20% Armor Upgrade Cost at the Blacksmith"
+  },
+  {
+    "QuirkName": "Back Tracker",
+    "QType": 0,
+    "LockedIn": false,
+    "QuirkDescription": "No Stress penalty when walking backwards"
+  },
+  {
+    "QuirkName": "Balanced",
+    "QType": 0,
+    "LockedIn": false,
+    "QuirkDescription": "+15% Move Resist"
+  },
+  {
+    "QuirkName": "Cove Explorer",
+    "QType": 0,
+    "LockedIn": false,
+    "QuirkDescription": "+10% Scouting Chance in Cove"
+  },
+  {
+    "QuirkName": "Cove Scrounger",
+    "QType": 0,
+    "LockedIn": false,
+    "QuirkDescription": "+5% Scouting Chance in Cove"
+  },
+  {
+    "QuirkName": "Cove Tactician",
+    "QType": 0,
+    "LockedIn": false,
+    "QuirkDescription": "+15% DMG in Cove"
+  },
+  {
+    "QuirkName": "Daredevil",
+    "QType": 0,
+    "LockedIn": false,
+    "QuirkDescription": "+15 DODGE if HP below 25%"
+  },
+  {
+    "QuirkName": "Fairweather Fighter",
+    "QType": 0,
+    "LockedIn": false,
+    "QuirkDescription": "+20% DMG if HP above 99%"
+  },
+  {
+    "QuirkName": "Fast Healer",
+    "QType": 0,
+    "LockedIn": false,
+    "QuirkDescription": "+10% Healing Skills while Camping"
+  },
+  {
+    "QuirkName": "Fated",
+    "QType": 0,
+    "LockedIn": false,
+    "QuirkDescription": "10% chance to turn any MISS into a HIT"
+  },
+  {
+    "QuirkName": "Healer's Gift",
+    "QType": 0,
+    "LockedIn": false,
+    "QuirkDescription": "+20% Healing Skills while Camping"
+  },
+  {
+    "QuirkName": "Hot to Trot",
+    "QType": 0,
+    "LockedIn": false,
+    "QuirkDescription": "+25% DMG, +20 ACC, +5% CRIT on First Round"
+  },
+  {
+    "QuirkName": "Meditator",
+    "QType": 0,
+    "LockedIn": false,
+    "QuirkDescription": "+20% Stress Heal Received from Meditation (Does not actually increase Stress Heal Received while Camping)"
+  },
+  {
+    "QuirkName": "Natural",
+    "QType": 0,
+    "LockedIn": false,
+    "QuirkDescription": "+20% MAX HP, +20% Healing Received, and +3 SPD while wearing no trinkets"
+  },
+  {
+    "QuirkName": "Nymphomania",
+    "QType": 0,
+    "LockedIn": false,
+    "QuirkDescription": "+20% Stress Heal Received from Brothel"
+  },
+  {
+    "QuirkName": "Ruins Explorer",
+    "QType": 0,
+    "LockedIn": false,
+    "QuirkDescription": "+10% Scouting Chance in Ruins"
+  },
+  {
+    "QuirkName": "Ruins Scrounger",
+    "QType": 0,
+    "LockedIn": false,
+    "QuirkDescription": "+5% Scouting Chance in Ruins"
+  },
+  {
+    "QuirkName": "Ruins Tactician",
+    "QType": 0,
+    "LockedIn": false,
+    "QuirkDescription": "+15% DMG in Ruins"
+  },
+  {
+    "QuirkName": "Stout",
+    "QType": 0,
+    "LockedIn": false,
+    "QuirkDescription": "+15% Healing Skills while Camping"
+  },
+  {
+    "QuirkName": "Twilight Dreamer",
+    "QType": 0,
+    "LockedIn": false,
+    "QuirkDescription": "Ignores Stealth (One per roster)"
+  },
+  {
+    "QuirkName": "Warrens Explorer",
+    "QType": 0,
+    "LockedIn": false,
+    "QuirkDescription": "+10% Scouting Chance in Warrens"
+  },
+  {
+    "QuirkName": "Warrens Scrounger",
+    "QType": 0,
+    "LockedIn": false,
+    "QuirkDescription": "+5% Scouting Chance in Warrens"
+  },
+  {
+    "QuirkName": "Warrens Tactician",
+    "QType": 0,
+    "LockedIn": false,
+    "QuirkDescription": "+15% DMG in Warrens"
+  },
+  {
+    "QuirkName": "Weald Explorer",
+    "QType": 0,
+    "LockedIn": false,
+    "QuirkDescription": "+10% Scouting Chance in Weald"
+  },
+  {
+    "QuirkName": "Weald Scrounger",
+    "QType": 0,
+    "LockedIn": false,
+    "QuirkDescription": "+5% Scouting Chance in Weald"
+  },
+  {
+    "QuirkName": "Weald Tactician",
+    "QType": 0,
+    "LockedIn": false,
+    "QuirkDescription": "+15% DMG in Weald"
+  },
+  {
+    "QuirkName": "Weapon Tinker",
+    "QType": 0,
+    "LockedIn": false,
+    "QuirkDescription": "-20% Weapon Upgrade Cost at the Blacksmith"
+  }
+]

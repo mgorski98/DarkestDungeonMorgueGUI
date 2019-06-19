@@ -1,0 +1,81 @@
+﻿<Window x:Class="DarkestDungeonMorgueGUI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DarkestDungeonMorgueGUI"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="650" Width="800"
+        >
+    <Grid>
+        <ListView SelectionMode="Single" ItemsSource="{Binding FallenHeroes}" Background="LightGray" Name="HeroesList" HorizontalAlignment="Left" Height="527" Margin="50,37,0,0" VerticalAlignment="Top" Width="244">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel Orientation="Horizontal">
+                        <Image Source="{Binding ImagePath}" Width="80" Height="80"></Image>
+                        <TextBlock Text="{Binding HeroName}"></TextBlock>
+                    </StackPanel>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        <Label FontSize="16" Content="Heroes" HorizontalAlignment="Left" Margin="50,5,0,0" VerticalAlignment="Top"/>
+        <GroupBox Header="Add new hero" HorizontalAlignment="Left" Height="527" Margin="379,37,0,0" VerticalAlignment="Top" Width="350">
+            <Grid HorizontalAlignment="Stretch" Height="Auto" Width="Auto" Margin="0,0,0,0" VerticalAlignment="Stretch">
+                <Label Content="Hero name" HorizontalAlignment="Left" Margin="10,15,0,0" VerticalAlignment="Top"/>
+                <TextBox Name="HeroNameTextBox" HorizontalAlignment="Left" Height="23" Margin="10,41,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="145"/>
+                <Label Content="Hero class" HorizontalAlignment="Left" Margin="168,15,0,0" VerticalAlignment="Top"/>
+                <ComboBox Name="HeroClassesComboBox" HorizontalAlignment="Left" Margin="168,41,0,0" VerticalAlignment="Top" Width="145"/>
+                <Label Content="Hero level" HorizontalAlignment="Left" Margin="10,74,0,0" VerticalAlignment="Top"/>
+                <ComboBox Name="HeroLevelsComboBox" HorizontalAlignment="Left" Margin="10,100,0,0" VerticalAlignment="Top" Width="145"/>
+                <TabControl SelectionChanged="ListTabControl_SelectionChanged" Name="ListTabControl" HorizontalAlignment="Left" Height="162" Margin="10,215,0,0" VerticalAlignment="Top" Width="317">
+                    <TabItem Header="Positive Quirks">
+                        <ListView ItemsSource="{Binding PositiveQuirks}" SelectionMode="Multiple" Name="PositiveQuirksListView" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Width="Auto" Height="Auto"></ListView>
+                    </TabItem>
+                    <TabItem Header="Negative Quirks">
+                        <ListView ItemsSource="{Binding NegativeQuirks}" SelectionMode="Multiple" Name="NegativeQuirksListView" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Width="Auto" Height="Auto"></ListView>
+                    </TabItem>
+                    <TabItem Header="Diseases">
+                        <ListView ItemsSource="{Binding Diseases}" SelectionMode="Multiple" Name="DiseasesListView" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Width="Auto" Height="Auto"></ListView>
+                    </TabItem>
+                    <TabItem Header="Causes of Death">
+                        <ListView ItemsSource="{Binding CausesOfDeath}" SelectionMode="Single" Name="CausesOfDeathListView" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Width="Auto" Height="Auto"></ListView>
+                    </TabItem>
+                </TabControl>
+                <Label Content="Affliction" HorizontalAlignment="Left" Margin="10,382,0,0" VerticalAlignment="Top"/>
+                <ComboBox DropDownClosed="AfflictionComboBox_DropDownClosed" Name="AfflictionComboBox" HorizontalAlignment="Left" Margin="10,408,0,0" VerticalAlignment="Top" Width="145"/>
+                <Label Content="Virtue" HorizontalAlignment="Left" Margin="168,383,0,0" VerticalAlignment="Top"/>
+                <ComboBox DropDownClosed="VirtueComboBox_DropDownClosed" Name="VirtueComboBox" HorizontalAlignment="Left" Margin="168,408,0,0" VerticalAlignment="Top" Width="145"/>
+                <Button Click="AddHeroEvent" Content="Add hero" HorizontalAlignment="Center" Margin="0,0,0,25" VerticalAlignment="Bottom" Width="75"/>
+                <TextBox Name="SearchTextBox" TextChanged="SearchTextBoxEvent" HorizontalAlignment="Left" Height="23" Margin="10,174,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="222"/>
+                <Label Content="Search for quirk/disease/other" HorizontalAlignment="Left" Margin="10,148,0,0" VerticalAlignment="Top"/>
+            </Grid>
+        </GroupBox>
+
+    </Grid>
+</Window>
+<!--<ListView.ItemTemplate>
+                <DataTemplate DataType="{x:Type local:HeroDeath}">
+                    <StackPanel Orientation="Horizontal">
+                        <Button Width="50" Height="50" IsEnabled="False" >
+                            <Button.Background>
+                                <ImageBrush ImageSource="HeroPortraits/abomination.png"></ImageBrush>
+                            </Button.Background>
+                            <Button.Style>
+                                <Style TargetType="Button">
+                                    <Setter Property="OverridesDefaultStyle" Value="True"></Setter>
+                                    <Setter Property="Template">
+                                        <Setter.Value>
+                                            <ControlTemplate TargetType="Button">
+                                                <Border Name="border" BorderThickness="1" Padding="4,2" BorderBrush="Black" CornerRadius="3" Background="{TemplateBinding Background}">
+                                                    <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"></ContentPresenter>
+                                                </Border>
+                                            </ControlTemplate>
+                                        </Setter.Value>
+                                    </Setter>
+                                </Style>
+                            </Button.Style>
+                        </Button>
+                        <TextBlock Text="{Binding HeroName}" VerticalAlignment="Center" Margin="25,0,0,0"></TextBlock>
+                    </StackPanel>
+                </DataTemplate>
+            </ListView.ItemTemplate>-->

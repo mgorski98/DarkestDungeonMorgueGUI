@@ -1,0 +1,554 @@
+[
+  {
+    "QuirkName": "Fear of Beasts",
+    "QType": 1,
+    "LockedIn": false,
+    "QuirkDescription": "+15% Stress and -10 ACC vs Beast"
+  },
+  {
+    "QuirkName": "Zoophobia",
+    "QType": 1,
+    "LockedIn": false,
+    "QuirkDescription": "+20% Stress vs Beast"
+  },
+  {
+    "QuirkName": "Anemic",
+    "QType": 1,
+    "LockedIn": false,
+    "QuirkDescription": "-10% Bleed Resist"
+  },
+  {
+    "QuirkName": "Dud Hitter",
+    "QType": 1,
+    "LockedIn": false,
+    "QuirkDescription": "-5% CRIT if HP below 50%"
+  },
+  {
+    "QuirkName": "Cove Phobe",
+    "QType": 1,
+    "LockedIn": false,
+    "QuirkDescription": "+20% Stress in Cove"
+  },
+  {
+    "QuirkName": "Misses the Spot",
+    "QType": 1,
+    "LockedIn": false,
+    "QuirkDescription": "-2% CRIT"
+  },
+  {
+    "QuirkName": "Flawed Release",
+    "QType": 1,
+    "LockedIn": false,
+    "QuirkDescription": "-5% CRIT Ranged Skills"
+  },
+  {
+    "QuirkName": "Nocturnal",
+    "QType": 1,
+    "LockedIn": false,
+    "QuirkDescription": "-2 SPD if Torch above 75"
+  },
+  {
+    "QuirkName": "Fear of Eldritch",
+    "QType": 1,
+    "LockedIn": false,
+    "QuirkDescription": "+15% Stress and -10 ACC vs Eldritch"
+  },
+  {
+    "QuirkName": "Clumsy",
+    "QType": 1,
+    "LockedIn": false,
+    "QuirkDescription": "-5 DODGE"
+  },
+  {
+    "QuirkName": "Infirm",
+    "QType": 1,
+    "LockedIn": false,
+    "QuirkDescription": "-20% Healing Received"
+  },
+  {
+    "QuirkName": "Ascetic",
+    "QType": 1,
+    "LockedIn": false,
+    "QuirkDescription": "Wyrd Reconstruction: -20% Healing Received"
+  },
+  {
+    "QuirkName": "Shocker",
+    "QType": 1,
+    "LockedIn": false,
+    "QuirkDescription": "-10% Stun Resist"
+  },
+  {
+    "QuirkName": "Bad Healer",
+    "QType": 1,
+    "LockedIn": false,
+    "QuirkDescription": "-20% Healing Skills"
+  },
+  {
+    "QuirkName": "Mercurial",
+    "QType": 1,
+    "LockedIn": false,
+    "QuirkDescription": "-5% Virtue Chance"
+  },
+  {
+    "QuirkName": "Winded",
+    "QType": 1,
+    "LockedIn": false,
+    "QuirkDescription": "-1 SPD if HP below 50%"
+  },
+  {
+    "QuirkName": "Night Blindness",
+    "QType": 1,
+    "LockedIn": false,
+    "QuirkDescription": "-10% DMG if Torch below 26"
+  },
+  {
+    "QuirkName": "Fading",
+    "QType": 1,
+    "LockedIn": false,
+    "QuirkDescription": "-2 SPD, -5 DODGE"
+  },
+  {
+    "QuirkName": "Fear of Mankind",
+    "QType": 1,
+    "LockedIn": false,
+    "QuirkDescription": "+15% Stress and -10 ACC vs Human"
+  },
+  {
+    "QuirkName": "Automatonophobia",
+    "QType": 1,
+    "LockedIn": false,
+    "QuirkDescription": "+20% Stress vs Human"
+  },
+  {
+    "QuirkName": "Tone Deaf",
+    "QType": 1,
+    "LockedIn": false,
+    "QuirkDescription": "Inspiring Tune: -20% Stress Heal Received"
+  },
+  {
+    "QuirkName": "Lazy Eye",
+    "QType": 1,
+    "LockedIn": false,
+    "QuirkDescription": "-5 ACC Ranged Skills"
+  },
+  {
+    "QuirkName": "The Yips",
+    "QType": 1,
+    "LockedIn": false,
+    "QuirkDescription": "-5 ACC"
+  },
+  {
+    "QuirkName": "Diurnal",
+    "QType": 1,
+    "LockedIn": false,
+    "QuirkDescription": "-2 SPD if Torch below 26"
+  },
+  {
+    "QuirkName": "Off Guard",
+    "QType": 1,
+    "LockedIn": false,
+    "QuirkDescription": "-4 SPD and -5 DODGE on First Round"
+  },
+  {
+    "QuirkName": "Phengophobia",
+    "QType": 1,
+    "LockedIn": false,
+    "QuirkDescription": "+20% Stress if Torch above 75"
+  },
+  {
+    "QuirkName": "Weak Grip",
+    "QType": 1,
+    "LockedIn": false,
+    "QuirkDescription": "-5% CRIT Melee Skills"
+  },
+  {
+    "QuirkName": "Slowdraw",
+    "QType": 1,
+    "LockedIn": false,
+    "QuirkDescription": "-4 SPD on First Round"
+  },
+  {
+    "QuirkName": "Slow Reflexes",
+    "QType": 1,
+    "LockedIn": false,
+    "QuirkDescription": "-1 SPD"
+  },
+  {
+    "QuirkName": "Ruminator",
+    "QType": 1,
+    "LockedIn": false,
+    "QuirkDescription": "-10% Stress Heal Received"
+  },
+  {
+    "QuirkName": "Sickly",
+    "QType": 1,
+    "LockedIn": false,
+    "QuirkDescription": "-10% Disease Resist"
+  },
+  {
+    "QuirkName": "Ruins Phobe",
+    "QType": 1,
+    "LockedIn": false,
+    "QuirkDescription": "+20% Stress in Ruins"
+  },
+  {
+    "QuirkName": "Tuckered Out",
+    "QType": 1,
+    "LockedIn": false,
+    "QuirkDescription": "-10% DMG if HP below 50%"
+  },
+  {
+    "QuirkName": "Bad Gambler",
+    "QType": 1,
+    "LockedIn": false,
+    "QuirkDescription": "+11.4% chance of losing money and +13.3% chance of losing trinkets while Gambling"
+  },
+  {
+    "QuirkName": "Torn Rotator",
+    "QType": 1,
+    "LockedIn": false,
+    "QuirkDescription": "-5% DMG Melee Skills"
+  },
+  {
+    "QuirkName": "Scientific",
+    "QType": 1,
+    "LockedIn": false,
+    "QuirkDescription": "Divine Grace, Divine Comfort: -20% Healing Received"
+  },
+  {
+    "QuirkName": "Nervous",
+    "QType": 1,
+    "LockedIn": false,
+    "QuirkDescription": "+10% Stress"
+  },
+  {
+    "QuirkName": "Stress Eater",
+    "QType": 1,
+    "LockedIn": false,
+    "QuirkDescription": "+100% Food Consumed if Stress above 50"
+  },
+  {
+    "QuirkName": "Thin Blooded",
+    "QType": 1,
+    "LockedIn": false,
+    "QuirkDescription": "-10% Blight Resist"
+  },
+  {
+    "QuirkName": "Fragile",
+    "QType": 1,
+    "LockedIn": false,
+    "QuirkDescription": "-10% MAX HP"
+  },
+  {
+    "QuirkName": "Soft",
+    "QType": 1,
+    "LockedIn": false,
+    "QuirkDescription": "-5% MAX HP"
+  },
+  {
+    "QuirkName": "Fear of Unholy",
+    "QType": 1,
+    "LockedIn": false,
+    "QuirkDescription": "+15% Stress and -10 ACC vs Unholy"
+  },
+  {
+    "QuirkName": "Satanophobia",
+    "QType": 1,
+    "LockedIn": false,
+    "QuirkDescription": "+20% Stress vs Unholy"
+  },
+  {
+    "QuirkName": "Scattering",
+    "QType": 1,
+    "LockedIn": false,
+    "QuirkDescription": "-5% DMG Ranged Skills"
+  },
+  {
+    "QuirkName": "Weak Grip on Life",
+    "QType": 1,
+    "LockedIn": false,
+    "QuirkDescription": "-10% Death Blow Resist"
+  },
+  {
+    "QuirkName": "Warrens Phobe",
+    "QType": 1,
+    "LockedIn": false,
+    "QuirkDescription": "+20% Stress in Warrens"
+  },
+  {
+    "QuirkName": "Light Sensitive",
+    "QType": 1,
+    "LockedIn": false,
+    "QuirkDescription": "-10% DMG if Torch above 75"
+  },
+  {
+    "QuirkName": "Weald Phobe",
+    "QType": 1,
+    "LockedIn": false,
+    "QuirkDescription": "+20% Stress in Weald"
+  },
+  {
+    "QuirkName": "Enlightened",
+    "QType": 1,
+    "LockedIn": false,
+    "QuirkDescription": "In Town, will only Meditate for stress relief"
+  },
+  {
+    "QuirkName": "God Fearing",
+    "QType": 1,
+    "LockedIn": false,
+    "QuirkDescription": "In Town, will only Pray for stress relief."
+  },
+  {
+    "QuirkName": "Flagellant",
+    "QType": 1,
+    "LockedIn": false,
+    "QuirkDescription": "In Town, will only Flagellate for stress relief"
+  },
+  {
+    "QuirkName": "Tippler",
+    "QType": 1,
+    "LockedIn": false,
+    "QuirkDescription": "In town, will only visit the Bar for stress relief"
+  },
+  {
+    "QuirkName": "Gambler",
+    "QType": 1,
+    "LockedIn": false,
+    "QuirkDescription": "In town, will only Gamble for stress relief"
+  },
+  {
+    "QuirkName": "Love Interest",
+    "QType": 1,
+    "LockedIn": false,
+    "QuirkDescription": "In town, will only visit the Brothel for stress relief"
+  },
+  {
+    "QuirkName": "Unquiet Mind",
+    "QType": 1,
+    "LockedIn": false,
+    "QuirkDescription": "In town, will not meditate in the Cloister for stress relief"
+  },
+  {
+    "QuirkName": "Witness",
+    "QType": 1,
+    "LockedIn": false,
+    "QuirkDescription": "After seeing troubling behavior, will not take part in Prayer activity in town"
+  },
+  {
+    "QuirkName": "Resolution",
+    "QType": 1,
+    "LockedIn": false,
+    "QuirkDescription": "In town, will never Drink"
+  },
+  {
+    "QuirkName": "Known Cheat",
+    "QType": 1,
+    "LockedIn": false,
+    "QuirkDescription": "Is not allowed to visit the Gambling Hall"
+  },
+  {
+    "QuirkName": "Deviant Tastes",
+    "QType": 1,
+    "LockedIn": false,
+    "QuirkDescription": "Is not allowed to visit the Brothel"
+  },
+  {
+    "QuirkName": "Faithless",
+    "QType": 1,
+    "LockedIn": false,
+    "QuirkDescription": "Will not Pray or Flagellate for stress relief."
+  },
+  {
+    "QuirkName": "Antsy",
+    "QType": 1,
+    "LockedIn": false,
+    "QuirkDescription": "+20 Stress when left Idle for the week"
+  },
+  {
+    "QuirkName": "Ashen",
+    "QType": 1,
+    "LockedIn": false,
+    "QuirkDescription": "-10% Bleed Resist, -10% Blight Resist"
+  },
+  {
+    "QuirkName": "Calm",
+    "QType": 1,
+    "LockedIn": false,
+    "QuirkDescription": "-15% DMG on First Round"
+  },
+  {
+    "QuirkName": "Claustrophobia",
+    "QType": 1,
+    "LockedIn": false,
+    "QuirkDescription": "+20% Stress in Hallways"
+  },
+  {
+    "QuirkName": "Germaphobe",
+    "QType": 1,
+    "LockedIn": false,
+    "QuirkDescription": "-10 ACC vs Blighted"
+  },
+  {
+    "QuirkName": "Imposter Syndrome",
+    "QType": 1,
+    "LockedIn": false,
+    "QuirkDescription": "\"Consumed by thoughts of inadequacy\" (4% chance to pass turn )"
+  },
+  {
+    "QuirkName": "Lygophobia",
+    "QType": 1,
+    "LockedIn": false,
+    "QuirkDescription": "+20% Stress if Torch below 26"
+  },
+  {
+    "QuirkName": "Nervous Bleeder",
+    "QType": 1,
+    "LockedIn": false,
+    "QuirkDescription": "-10 ACC while Bleeding"
+  },
+  {
+    "QuirkName": "Perfectionist",
+    "QType": 1,
+    "LockedIn": false,
+    "QuirkDescription": "+5 Stress when attack misses"
+  },
+  {
+    "QuirkName": "Risktaker",
+    "QType": 1,
+    "LockedIn": false,
+    "QuirkDescription": "+10% DMG, -10 DODGE"
+  },
+  {
+    "QuirkName": "Thanatophobia",
+    "QType": 1,
+    "LockedIn": false,
+    "QuirkDescription": "+20% Stress if HP below 50%"
+  },
+  {
+    "QuirkName": "Corvid's Blindness",
+    "QType": 1,
+    "LockedIn": false,
+    "QuirkDescription": "-10 ACC if Torch above 50"
+  },
+  {
+    "QuirkName": "Corvid's Appetite",
+    "QType": 1,
+    "LockedIn": false,
+    "QuirkDescription": "+100% Food Consumed, 33% chance of interacting with \"Body\" curios"
+  },
+  {
+    "QuirkName": "Corvid's Curiosity",
+    "QType": 1,
+    "LockedIn": false,
+    "QuirkDescription": "27.5% chance of interacting with all curios"
+  },
+  {
+    "QuirkName": "Ablutomania",
+    "QType": 1,
+    "LockedIn": false,
+    "QuirkDescription": "Obsessed with cleanliness"
+  },
+  {
+    "QuirkName": "Bloodthirsty",
+    "QType": 1,
+    "LockedIn": false,
+    "QuirkDescription": "Fascinated with injury, wounds, and torture"
+  },
+  {
+    "QuirkName": "Compulsive",
+    "QType": 1,
+    "LockedIn": false,
+    "QuirkDescription": "Suffers intense need to do specific actions"
+  },
+  {
+    "QuirkName": "Curious",
+    "QType": 1,
+    "LockedIn": false,
+    "QuirkDescription": "Obsessed with the acquisition of knowledge"
+  },
+  {
+    "QuirkName": "Dacnomania",
+    "QType": 1,
+    "LockedIn": false,
+    "QuirkDescription": "Obsessed with killing"
+  },
+  {
+    "QuirkName": "Dark Temptation",
+    "QType": 1,
+    "LockedIn": false,
+    "QuirkDescription": "Prone to investigating the Dark Arts"
+  },
+  {
+    "QuirkName": "Demonomania",
+    "QType": 1,
+    "LockedIn": false,
+    "QuirkDescription": "Believes is possessed by demons"
+  },
+  {
+    "QuirkName": "Dipsomania",
+    "QType": 1,
+    "LockedIn": false,
+    "QuirkDescription": "Intense craving for alcohol"
+  },
+  {
+    "QuirkName": "Egomania",
+    "QType": 1,
+    "LockedIn": false,
+    "QuirkDescription": "Obsessed with self-worship"
+  },
+  {
+    "QuirkName": "Guilty Conscience",
+    "QType": 1,
+    "LockedIn": false,
+    "QuirkDescription": "Bears the crushing guilt of deeds real and imagined"
+  },
+  {
+    "QuirkName": "Hagiomania",
+    "QType": 1,
+    "LockedIn": false,
+    "QuirkDescription": "Obsessed with sainthood"
+  },
+  {
+    "QuirkName": "Hieromania",
+    "QType": 1,
+    "LockedIn": false,
+    "QuirkDescription": "Experiences religious visions and delusions"
+  },
+  {
+    "QuirkName": "Hylomania",
+    "QType": 1,
+    "LockedIn": false,
+    "QuirkDescription": "Obsessed with material things"
+  },
+  {
+    "QuirkName": "Kleptomaniac",
+    "QType": 1,
+    "LockedIn": false,
+    "QuirkDescription": "Prone to stealing"
+  },
+  {
+    "QuirkName": "Necromania",
+    "QType": 1,
+    "LockedIn": false,
+    "QuirkDescription": "Fascinated with corpses"
+  },
+  {
+    "QuirkName": "Paranormania",
+    "QType": 1,
+    "LockedIn": false,
+    "QuirkDescription": "Obsessed with the paranormal"
+  },
+  {
+    "QuirkName": "Plutomania",
+    "QType": 1,
+    "LockedIn": false,
+    "QuirkDescription": "Manic for money"
+  },
+  {
+    "QuirkName": "Sitiomania",
+    "QType": 1,
+    "LockedIn": false,
+    "QuirkDescription": "Obsessed with food"
+  }
+]

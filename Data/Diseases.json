@@ -1,0 +1,102 @@
+[
+  {
+    "DiseaseName": "Bad Humors",
+    "DiseaseDescription": "-20% MAX HP"
+  },
+  {
+    "DiseaseName": "Black Plague",
+    "DiseaseDescription": "-75% Blight Resist , -75% Disease Resist , -10% MAX HP , -5 SPD"
+  },
+  {
+    "DiseaseName": "Bulimic",
+    "DiseaseDescription": "-20% Healing Skills while Camping"
+  },
+  {
+    "DiseaseName": "Creeping Cough",
+    "DiseaseDescription": "-20% DMG"
+  },
+  {
+    "DiseaseName": "Ennui",
+    "DiseaseDescription": "-25% Virtue Chance"
+  },
+  {
+    "DiseaseName": "Grey Rot",
+    "DiseaseDescription": "+20% MAX HP , -10 ACC , -10% DMG"
+  },
+  {
+    "DiseaseName": "Hemophilia",
+    "DiseaseDescription": "-50% Bleed Resist"
+  },
+  {
+    "DiseaseName": "Hysterical Blindness",
+    "DiseaseDescription": "-20 ACC if Stress above 70"
+  },
+  {
+    "DiseaseName": "Lethargy",
+    "DiseaseDescription": "-4 SPD"
+  },
+  {
+    "DiseaseName": "Rabies",
+    "DiseaseDescription": "+15% DMG , -10 ACC"
+  },
+  {
+    "DiseaseName": "Scurvy",
+    "DiseaseDescription": "-40% Bleed Resist , -40% Move Resist"
+  },
+  {
+    "DiseaseName": "Sky Taint",
+    "DiseaseDescription": "+20% Stress , -20% Bleed Resist , -20% Blight Resist"
+  },
+  {
+    "DiseaseName": "Spasm of the Entrails",
+    "DiseaseDescription": "-20% Healing Skills while Camping"
+  },
+  {
+    "DiseaseName": "Spotted Fever",
+    "DiseaseDescription": "-50% Blight Resist"
+  },
+  {
+    "DiseaseName": "Syphilis",
+    "DiseaseDescription": "-5 ACC , -10% DMG , -10% MAX HP"
+  },
+  {
+    "DiseaseName": "Tapeworm",
+    "DiseaseDescription": "+100% Food Consumed , 60% chance to interact with \"Food\" curios (steals loot)"
+  },
+  {
+    "DiseaseName": "Tetanus",
+    "DiseaseDescription": "-5 ACC , -5% CRIT"
+  },
+  {
+    "DiseaseName": "The Ague",
+    "DiseaseDescription": "-10% DMG , -3 SPD , -10% MAX HP"
+  },
+  {
+    "DiseaseName": "The Fits",
+    "DiseaseDescription": "+3 SPD , -5 ACC , -5% CRIT"
+  },
+  {
+    "DiseaseName": "The Red Plague",
+    "DiseaseDescription": "-75% Bleed Resist , -10% MAX HP , -5% CRIT"
+  },
+  {
+    "DiseaseName": "The Runs",
+    "DiseaseDescription": "-20 DODGE , -10% MAX HP"
+  },
+  {
+    "DiseaseName": "The Worries",
+    "DiseaseDescription": "+30% Stress"
+  },
+  {
+    "DiseaseName": "Vertigo",
+    "DiseaseDescription": "-50% Move Resist"
+  },
+  {
+    "DiseaseName": "Vampiric Spirits",
+    "DiseaseDescription": "-50% Debuff Resist"
+  },
+  {
+    "DiseaseName": "Wasting Sickness",
+    "DiseaseDescription": "-50% Disease Resist"
+  }
+]
