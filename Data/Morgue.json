@@ -1,1 +1,40 @@
-[]
+[
+  {
+    "HeroClass": 8,
+    "HeroName": "Reynauld",
+    "HeroLevel": 4,
+    "Diseases": [
+      {
+        "DiseaseName": "Bulimic",
+        "DiseaseDescription": "-20% Healing Skills while Camping"
+      }
+    ],
+    "Affliction": null,
+    "Virtue": null,
+    "CauseOfDeath": "Twitching Maggot",
+    "PositiveQuirks": [
+      {
+        "QuirkName": "Beast Slayer",
+        "QType": 0,
+        "QuirkDescription": "+10 ACC and +5% CRIT vs Beast"
+      },
+      {
+        "QuirkName": "Clutch Hitter",
+        "QType": 0,
+        "QuirkDescription": "+5% CRIT if HP below 50%"
+      }
+    ],
+    "NegativeQuirks": [
+      {
+        "QuirkName": "Zoophobia",
+        "QType": 1,
+        "QuirkDescription": "+20% Stress vs Beast"
+      },
+      {
+        "QuirkName": "Cove Phobe",
+        "QType": 1,
+        "QuirkDescription": "+20% Stress in Cove"
+      }
+    ]
+  }
+]

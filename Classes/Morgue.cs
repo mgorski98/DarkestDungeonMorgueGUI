@@ -54,8 +54,8 @@ namespace DarkestDungeonMorgueGUI {
             this.PositiveQuirks = new ObservableCollection<HeroQuirk>();
             this.NegativeQuirks = new ObservableCollection<HeroQuirk>();
             this.ClassPortraits = new ConcurrentDictionary<HeroClass, Uri>();
-            this.LoadData();
             this.LoadImages();
+            this.LoadData();
         }
 
         public static Morgue GetInstance() {
@@ -124,7 +124,7 @@ namespace DarkestDungeonMorgueGUI {
             }
         }
 
-        private void SaveMorgue() {
+        public void SaveMorgue() {
             using (var fs = new FileStream(@"../../Data/Morgue.json", FileMode.Create)) {
                 using (var writer = new StreamWriter(fs)) {
                     writer.Write(JsonConvert.SerializeObject(FallenHeroes, Formatting.Indented));
@@ -137,6 +137,7 @@ namespace DarkestDungeonMorgueGUI {
                 ObservableCollection<HeroDeath> l = JsonConvert.DeserializeObject<ObservableCollection<HeroDeath>>(reader.ReadToEnd());
                 foreach (var obj in l) {
                     Application.Current.Dispatcher.Invoke(() => this.FallenHeroes.Add(obj));
+                    obj.ImagePath = this.ClassPortraits[obj.HeroClass];
                 }
             }
         }

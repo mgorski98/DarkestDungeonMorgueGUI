@@ -19,12 +19,12 @@ namespace DarkestDungeonMorgueGUI {
         private HeroLevel heroLevel;
         private string causeOfDeath;
 
-        [JsonIgnore]
         private Uri imagePath;
 
         private Affliction? affliction;
         private Virtue? virtue;
 
+        [JsonIgnore]
         public Uri ImagePath {
             get => this.imagePath;
             set => this.imagePath = value;
@@ -45,8 +45,6 @@ namespace DarkestDungeonMorgueGUI {
             set => heroLevel = value;
         }
 
-        
-
         public IList<HeroDisease> Diseases {
             get => this.heroDiseases;
             set => this.heroDiseases = value;
@@ -66,8 +64,16 @@ namespace DarkestDungeonMorgueGUI {
             get => causeOfDeath;
             set => causeOfDeath = value;
         }
-        public IList<HeroQuirk> PositiveQuirks { get => positiveQuirks; set => positiveQuirks = value; }
-        public IList<HeroQuirk> NegativeQuirks { get => negativeQuirks; set => negativeQuirks = value; }
+
+        public IList<HeroQuirk> PositiveQuirks {
+            get => positiveQuirks;
+            set => positiveQuirks = value;
+        }
+
+        public IList<HeroQuirk> NegativeQuirks {
+            get => negativeQuirks;
+            set => negativeQuirks = value;
+        }
 
         public HeroDeath() {}
 

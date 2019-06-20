@@ -16,15 +16,28 @@ using Newtonsoft.Json;
 using System.IO;
 using System.Collections.ObjectModel;
 using System.Timers;
+using System.Threading;
 
 namespace DarkestDungeonMorgueGUI {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
     public partial class MainWindow : Window {
+
+        private const int PositiveQuirksMaxSize = 5;
+        private const int NegativeQuirksMaxSize = 5;
+        private const int DiseasesMaxSize = 3;
+
+        private ObservableCollection<HeroQuirk> ChosenPositiveQuirks;
+        private ObservableCollection<HeroDisease> ChosenHeroDiseases;
+        private ObservableCollection<HeroQuirk> ChosenNegativeQuirks;
+
         public MainWindow() {
             InitializeComponent();
             Morgue.GetInstance();
+            this.ChosenHeroDiseases = new ObservableCollection<HeroDisease>();
+            this.ChosenNegativeQuirks = new ObservableCollection<HeroQuirk>();
+            this.ChosenPositiveQuirks = new ObservableCollection<HeroQuirk>();
             this.InitializeViews();
         }
 
@@ -38,6 +51,9 @@ namespace DarkestDungeonMorgueGUI {
                 this.HeroClassesComboBox.SelectedItem = this.HeroClassesComboBox.Items.GetItemAt(0);
                 this.ResetCollectionsViews();
                 this.HeroesList.ItemsSource = Morgue.GetInstance().FallenHeroes;
+                this.ChosenPositiveQuirksListView.ItemsSource = this.ChosenPositiveQuirks;
+                this.ChosenNegativeQuirksListView.ItemsSource = this.ChosenNegativeQuirks;
+                this.ChosenDiseasesListView.ItemsSource = this.ChosenHeroDiseases;
             });
         }
 
@@ -51,8 +67,15 @@ namespace DarkestDungeonMorgueGUI {
                 this.PositiveQuirksListView.SelectedItems.Clear();
                 this.NegativeQuirksListView.SelectedItems.Clear();
                 this.DiseasesListView.SelectedItems.Clear();
-                this.CausesOfDeathListView.SelectedItems.Clear();
+                this.CausesOfDeathListView.SelectedIndex = -1;
+                this.ResetChosenQuirksAndDiseases();
             });
+        }
+
+        private void ResetChosenQuirksAndDiseases() {
+            this.ChosenNegativeQuirks.Clear();
+            this.ChosenPositiveQuirks.Clear();
+            this.ChosenHeroDiseases.Clear();
         }
 
         private void ResetCollectionsViews() {
@@ -72,26 +95,9 @@ namespace DarkestDungeonMorgueGUI {
             HeroLevel level = (HeroLevel)Enum.Parse(typeof(HeroLevel), HeroLevelsComboBox.SelectedItem as string);
             IList<HeroQuirk> negativeQuirks, positiveQuirks;
             IList<HeroDisease> diseases;
-            negativeQuirks = new List<HeroQuirk>();
-            positiveQuirks = new List<HeroQuirk>();
-            diseases = new List<HeroDisease>();
-            foreach (var quirk in NegativeQuirksListView.SelectedItems) {
-                HeroQuirk _quirk = (quirk as HeroQuirk);
-                if (_quirk == null) continue;
-                negativeQuirks.Add(_quirk);
-            }
-
-            foreach (var quirk in PositiveQuirksListView.SelectedItems) {
-                HeroQuirk _quirk = (quirk as HeroQuirk);
-                if (_quirk == null) continue;
-                positiveQuirks.Add(_quirk);
-            }
-
-            foreach (var disease in DiseasesListView.SelectedItems) {
-                HeroDisease dis = (disease as HeroDisease);
-                if (dis == null) continue;
-                diseases.Add(dis);
-            }
+            negativeQuirks = new List<HeroQuirk>(this.ChosenNegativeQuirks);
+            positiveQuirks = new List<HeroQuirk>(this.ChosenPositiveQuirks);
+            diseases = new List<HeroDisease>(this.ChosenHeroDiseases);
 
             string causeOfDeath = CausesOfDeathListView.SelectedItem as string;
             if (causeOfDeath == null) {
@@ -165,6 +171,50 @@ namespace DarkestDungeonMorgueGUI {
                 this.ResetCollectionsViews();
                 this.SearchTextBox.Text = "";
             });
+        }
+
+        private void AddChosenNegativeQuirk(object sender, MouseButtonEventArgs e) {
+            if (ChosenNegativeQuirks.Count >= NegativeQuirksMaxSize) return;
+            var items = (sender as ListView)?.SelectedItems;
+            if (items != null) {
+                foreach (HeroQuirk quirk in items) {
+                    if (this.ChosenNegativeQuirks.Contains(quirk)) continue;
+                    this.ChosenNegativeQuirks.Add(quirk);
+                }
+            }
+        }
+
+        private void AddChosenPositiveQuirk(object sender, MouseButtonEventArgs e) {
+            if (ChosenPositiveQuirks.Count >= PositiveQuirksMaxSize) return;
+            var items = (sender as ListView)?.SelectedItems;
+            if (items != null) {
+                foreach (HeroQuirk quirk in items) {
+                    if (this.ChosenPositiveQuirks.Contains(quirk)) continue;
+                    this.ChosenPositiveQuirks.Add(quirk);
+                }
+            }
+        }
+
+        private void AddChosenDisease(object sender, MouseButtonEventArgs e) {
+            if (ChosenHeroDiseases.Count >= DiseasesMaxSize) return;
+            var items = (sender as ListView)?.SelectedItems;
+            if (items != null) {
+                foreach (HeroDisease item in items) {
+                    if (this.ChosenHeroDiseases.Contains(item)) continue;
+                    this.ChosenHeroDiseases.Add(item);
+                }
+            }
+        }
+
+        private void ClearChosenQuirksAndDiseasesViews(object sender, RoutedEventArgs e) {
+            this.ResetChosenQuirksAndDiseases();
+        }
+
+        private void GetKeyDownEvent(object sender, KeyEventArgs e) {
+            if (Keyboard.IsKeyDown(Key.S) && Keyboard.IsKeyDown(Key.LeftCtrl)) {
+                ThreadPool.QueueUserWorkItem(o => Morgue.GetInstance().SaveMorgue());
+                MessageBox.Show("Saving morgue to disk...");
+            }
         }
     }
 }

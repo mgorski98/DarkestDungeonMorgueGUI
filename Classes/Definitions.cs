@@ -26,7 +26,8 @@ public enum QuirkType : byte {
 }
 
 public enum Affliction : byte {
-    Fearful = 0,
+    None = 0,
+    Fearful,
     Paranoid,
     Selfish,
     Masochistic,
@@ -38,7 +39,8 @@ public enum Affliction : byte {
 }
 
 public enum Virtue : byte {
-    Stalwart = 0,
+    None = 0,
+    Stalwart,
     Courageous,
     Focused,
     Powerful,
