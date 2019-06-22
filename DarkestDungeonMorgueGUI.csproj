@@ -33,6 +33,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>AppIcon.ico</ApplicationIcon>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <HintPath>..\packages\Newtonsoft.Json.12.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
@@ -63,11 +66,11 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Page Include="ClassDeathStatisticsWindow.xaml">
+    <Page Include="DeathStatisticsWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="LevelDeathStatisticsWindow.xaml">
+    <Page Include="HeroDeathInfoWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -79,9 +82,6 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="ClassDeathStatisticsWindow.xaml.cs">
-      <DependentUpon>ClassDeathStatisticsWindow.xaml</DependentUpon>
-    </Compile>
     <Compile Include="Classes\ClassDeathStatisticsPlot.cs" />
     <Compile Include="Classes\Definitions.cs" />
     <Compile Include="Classes\HeroDeath.cs" />
@@ -89,8 +89,11 @@
     <Compile Include="Classes\HeroQuirk.cs" />
     <Compile Include="Classes\LevelDeathStatisticsPlot.cs" />
     <Compile Include="Classes\Morgue.cs" />
-    <Compile Include="LevelDeathStatisticsWindow.xaml.cs">
-      <DependentUpon>LevelDeathStatisticsWindow.xaml</DependentUpon>
+    <Compile Include="DeathStatisticsWindow.xaml.cs">
+      <DependentUpon>DeathStatisticsWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="HeroDeathInfoWindow.xaml.cs">
+      <DependentUpon>HeroDeathInfoWindow.xaml</DependentUpon>
     </Compile>
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
@@ -142,6 +145,9 @@
     <Resource Include="HeroPortraits\plague_doctor.png" />
     <Resource Include="HeroPortraits\shieldbreaker.png" />
     <Resource Include="HeroPortraits\vestal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="AppIcon.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

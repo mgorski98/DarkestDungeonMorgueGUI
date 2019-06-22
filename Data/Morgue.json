@@ -1,27 +1,1789 @@
 [
   {
+    "HeroClass": 2,
+    "HeroName": "Ala",
+    "HeroLevel": 6,
+    "Diseases": [],
+    "Affliction": 2,
+    "Virtue": null,
+    "CauseOfDeath": "Heart attack",
+    "PositiveQuirks": [
+      {
+        "QuirkName": "Stress Faster",
+        "QType": 0,
+        "QuirkDescription": "-100% Food Consumed if Stress above 50"
+      }
+    ],
+    "NegativeQuirks": [
+      {
+        "QuirkName": "Curious",
+        "QType": 1,
+        "QuirkDescription": "Obsessed with the acquisition of knowledge"
+      },
+      {
+        "QuirkName": "Zoophobia",
+        "QType": 1,
+        "QuirkDescription": "+20% Stress vs Beast"
+      },
+      {
+        "QuirkName": "Deviant Tastes",
+        "QType": 1,
+        "QuirkDescription": "Is not allowed to visit the Brothel"
+      },
+      {
+        "QuirkName": "Resolution",
+        "QType": 1,
+        "QuirkDescription": "In town, will never Drink"
+      },
+      {
+        "QuirkName": "Witness",
+        "QType": 1,
+        "QuirkDescription": "After seeing troubling behavior, will not take part in Prayer activity in town"
+      }
+    ]
+  },
+  {
+    "HeroClass": 0,
+    "HeroName": "Babiał",
+    "HeroLevel": 6,
+    "Diseases": [],
+    "Affliction": 3,
+    "Virtue": null,
+    "CauseOfDeath": "Heart of Darkness",
+    "PositiveQuirks": [
+      {
+        "QuirkName": "Cove Explorer",
+        "QType": 0,
+        "QuirkDescription": "+10% Scouting Chance in Cove"
+      },
+      {
+        "QuirkName": "Healer's Gift",
+        "QType": 0,
+        "QuirkDescription": "+20% Healing Skills while Camping"
+      },
+      {
+        "QuirkName": "Eldritch Hater",
+        "QType": 0,
+        "QuirkDescription": "+15% DMG and -15% Stress vs Eldritch"
+      },
+      {
+        "QuirkName": "Weald Scrounger",
+        "QType": 0,
+        "QuirkDescription": "+5% Scouting Chance in Weald"
+      }
+    ],
+    "NegativeQuirks": [
+      {
+        "QuirkName": "Calm",
+        "QType": 1,
+        "QuirkDescription": "-15% DMG on First Round"
+      },
+      {
+        "QuirkName": "Lazy Eye",
+        "QType": 1,
+        "QuirkDescription": "-5 ACC Ranged Skills"
+      },
+      {
+        "QuirkName": "Lygophobia",
+        "QType": 1,
+        "QuirkDescription": "+20% Stress if Torch below 26"
+      },
+      {
+        "QuirkName": "Deviant Tastes",
+        "QType": 1,
+        "QuirkDescription": "Is not allowed to visit the Brothel"
+      },
+      {
+        "QuirkName": "Scientific",
+        "QType": 1,
+        "QuirkDescription": "Divine Grace, Divine Comfort: -20% Healing Received"
+      }
+    ]
+  },
+  {
     "HeroClass": 8,
-    "HeroName": "Reynauld",
-    "HeroLevel": 4,
+    "HeroName": "Baujot",
+    "HeroLevel": 0,
     "Diseases": [
       {
-        "DiseaseName": "Bulimic",
-        "DiseaseDescription": "-20% Healing Skills while Camping"
+        "DiseaseName": "The Worries",
+        "DiseaseDescription": "+30% Stress"
+      }
+    ],
+    "Affliction": 2,
+    "Virtue": null,
+    "CauseOfDeath": "Thing From The Stars",
+    "PositiveQuirks": [
+      {
+        "QuirkName": "Clutch Hitter",
+        "QType": 0,
+        "QuirkDescription": "+5% CRIT if HP below 50%"
+      },
+      {
+        "QuirkName": "Beast Hater",
+        "QType": 0,
+        "QuirkDescription": "+15% DMG and -15% Stress vs Beast"
+      },
+      {
+        "QuirkName": "Precise Striker",
+        "QType": 0,
+        "QuirkDescription": "+5% CRIT Melee Skills"
+      }
+    ],
+    "NegativeQuirks": [
+      {
+        "QuirkName": "Scientific",
+        "QType": 1,
+        "QuirkDescription": "Divine Grace, Divine Comfort: -20% Healing Received"
+      },
+      {
+        "QuirkName": "Soft",
+        "QType": 1,
+        "QuirkDescription": "-5% MAX HP"
+      },
+      {
+        "QuirkName": "Off Guard",
+        "QType": 1,
+        "QuirkDescription": "-4 SPD and -5 DODGE on First Round"
+      },
+      {
+        "QuirkName": "Torn Rotator",
+        "QType": 1,
+        "QuirkDescription": "-5% DMG Melee Skills"
+      }
+    ]
+  },
+  {
+    "HeroClass": 11,
+    "HeroName": "Beniz",
+    "HeroLevel": 6,
+    "Diseases": [],
+    "Affliction": 7,
+    "Virtue": null,
+    "CauseOfDeath": "Countess",
+    "PositiveQuirks": [
+      {
+        "QuirkName": "Healer's Gift",
+        "QType": 0,
+        "QuirkDescription": "+20% Healing Skills while Camping"
+      },
+      {
+        "QuirkName": "Irrepressible",
+        "QType": 0,
+        "QuirkDescription": "+5% Virtue Chance"
+      },
+      {
+        "QuirkName": "Robust",
+        "QType": 0,
+        "QuirkDescription": "+15% Disease Resist"
+      },
+      {
+        "QuirkName": "Warrens Scrounger",
+        "QType": 0,
+        "QuirkDescription": "+5% Scouting Chance in Warrens"
+      },
+      {
+        "QuirkName": "Warrens Tactician",
+        "QType": 0,
+        "QuirkDescription": "+15% DMG in Warrens"
+      }
+    ],
+    "NegativeQuirks": [
+      {
+        "QuirkName": "Tippler",
+        "QType": 1,
+        "QuirkDescription": "In town, will only visit the Bar for stress relief"
+      },
+      {
+        "QuirkName": "Dipsomania",
+        "QType": 1,
+        "QuirkDescription": "Intense craving for alcohol"
+      },
+      {
+        "QuirkName": "Thanatophobia",
+        "QType": 1,
+        "QuirkDescription": "+20% Stress if HP below 50%"
+      },
+      {
+        "QuirkName": "Fear of Eldritch",
+        "QType": 1,
+        "QuirkDescription": "+15% Stress and -10 ACC vs Eldritch"
+      },
+      {
+        "QuirkName": "Slow Reflexes",
+        "QType": 1,
+        "QuirkDescription": "-1 SPD"
+      }
+    ]
+  },
+  {
+    "HeroClass": 6,
+    "HeroName": "Bourchier",
+    "HeroLevel": 0,
+    "Diseases": [],
+    "Affliction": null,
+    "Virtue": null,
+    "CauseOfDeath": "Blight",
+    "PositiveQuirks": [
+      {
+        "QuirkName": "Balanced",
+        "QType": 0,
+        "QuirkDescription": "+15% Move Resist"
+      },
+      {
+        "QuirkName": "On Guard",
+        "QType": 0,
+        "QuirkDescription": "+4 SPD and +5 DODGE on First Round"
+      }
+    ],
+    "NegativeQuirks": [
+      {
+        "QuirkName": "Egomania",
+        "QType": 1,
+        "QuirkDescription": "Obsessed with self-worship"
+      },
+      {
+        "QuirkName": "Resolution",
+        "QType": 1,
+        "QuirkDescription": "In town, will never Drink"
+      }
+    ]
+  },
+  {
+    "HeroClass": 0,
+    "HeroName": "Bretel",
+    "HeroLevel": 5,
+    "Diseases": [
+      {
+        "DiseaseName": "Spotted Fever",
+        "DiseaseDescription": "-50% Blight Resist"
+      }
+    ],
+    "Affliction": 4,
+    "Virtue": null,
+    "CauseOfDeath": "Heart attack",
+    "PositiveQuirks": [
+      {
+        "QuirkName": "Irrepressible",
+        "QType": 0,
+        "QuirkDescription": "+5% Virtue Chance"
+      },
+      {
+        "QuirkName": "Lurker",
+        "QType": 0,
+        "QuirkDescription": "+10% DMG if Torch below 26"
+      },
+      {
+        "QuirkName": "Robust",
+        "QType": 0,
+        "QuirkDescription": "+15% Disease Resist"
+      },
+      {
+        "QuirkName": "Ruins Tactician",
+        "QType": 0,
+        "QuirkDescription": "+15% DMG in Ruins"
+      }
+    ],
+    "NegativeQuirks": [
+      {
+        "QuirkName": "Ablutomania",
+        "QType": 1,
+        "QuirkDescription": "Obsessed with cleanliness"
+      },
+      {
+        "QuirkName": "Cove Phobe",
+        "QType": 1,
+        "QuirkDescription": "+20% Stress in Cove"
+      },
+      {
+        "QuirkName": "Weak Grip on Life",
+        "QType": 1,
+        "QuirkDescription": "-10% Death Blow Resist"
+      },
+      {
+        "QuirkName": "Calm",
+        "QType": 1,
+        "QuirkDescription": "-15% DMG on First Round"
+      },
+      {
+        "QuirkName": "Love Interest",
+        "QType": 1,
+        "QuirkDescription": "In town, will only visit the Brothel for stress relief"
+      }
+    ]
+  },
+  {
+    "HeroClass": 0,
+    "HeroName": "BydlakŚmierdziel",
+    "HeroLevel": 6,
+    "Diseases": [
+      {
+        "DiseaseName": "The Runs",
+        "DiseaseDescription": "-20 DODGE , -10% MAX HP"
       }
     ],
     "Affliction": null,
     "Virtue": null,
-    "CauseOfDeath": "Twitching Maggot",
+    "CauseOfDeath": "Countess",
     "PositiveQuirks": [
+      {
+        "QuirkName": "Deadly",
+        "QType": 0,
+        "QuirkDescription": "+2% CRIT"
+      },
+      {
+        "QuirkName": "Fated",
+        "QType": 0,
+        "QuirkDescription": "10% chance to turn any MISS into a HIT"
+      },
+      {
+        "QuirkName": "Natural Eye",
+        "QType": 0,
+        "QuirkDescription": "+5 ACC Ranged Skills"
+      }
+    ],
+    "NegativeQuirks": [
+      {
+        "QuirkName": "Compulsive",
+        "QType": 1,
+        "QuirkDescription": "Suffers intense need to do specific actions"
+      },
+      {
+        "QuirkName": "God Fearing",
+        "QType": 1,
+        "QuirkDescription": "In Town, will only Pray for stress relief."
+      },
+      {
+        "QuirkName": "Thanatophobia",
+        "QType": 1,
+        "QuirkDescription": "+20% Stress if HP below 50%"
+      },
+      {
+        "QuirkName": "Mercurial",
+        "QType": 1,
+        "QuirkDescription": "-5% Virtue Chance"
+      }
+    ]
+  },
+  {
+    "HeroClass": 15,
+    "HeroName": "Cambrai",
+    "HeroLevel": 4,
+    "Diseases": [],
+    "Affliction": 7,
+    "Virtue": null,
+    "CauseOfDeath": "Chevalier",
+    "PositiveQuirks": [
+      {
+        "QuirkName": "Fast Healer",
+        "QType": 0,
+        "QuirkDescription": "+10% Healing Skills while Camping"
+      },
+      {
+        "QuirkName": "Ruins Adventurer",
+        "QType": 0,
+        "QuirkDescription": "-20% Stress in Ruins"
+      },
       {
         "QuirkName": "Beast Slayer",
         "QType": 0,
         "QuirkDescription": "+10 ACC and +5% CRIT vs Beast"
       },
       {
-        "QuirkName": "Clutch Hitter",
+        "QuirkName": "Warrens Tactician",
         "QType": 0,
-        "QuirkDescription": "+5% CRIT if HP below 50%"
+        "QuirkDescription": "+15% DMG in Warrens"
+      },
+      {
+        "QuirkName": "Weald Scrounger",
+        "QType": 0,
+        "QuirkDescription": "+5% Scouting Chance in Weald"
+      }
+    ],
+    "NegativeQuirks": [
+      {
+        "QuirkName": "Curious",
+        "QType": 1,
+        "QuirkDescription": "Obsessed with the acquisition of knowledge"
+      },
+      {
+        "QuirkName": "Dud Hitter",
+        "QType": 1,
+        "QuirkDescription": "-5% CRIT if HP below 50%"
+      },
+      {
+        "QuirkName": "Tuckered Out",
+        "QType": 1,
+        "QuirkDescription": "-10% DMG if HP below 50%"
+      },
+      {
+        "QuirkName": "Tone Deaf",
+        "QType": 1,
+        "QuirkDescription": "Inspiring Tune: -20% Stress Heal Received"
+      }
+    ]
+  },
+  {
+    "HeroClass": 11,
+    "HeroName": "Carbonnel",
+    "HeroLevel": 1,
+    "Diseases": [
+      {
+        "DiseaseName": "Rabies",
+        "DiseaseDescription": "+15% DMG , -10 ACC"
+      }
+    ],
+    "Affliction": null,
+    "Virtue": null,
+    "CauseOfDeath": "Blight",
+    "PositiveQuirks": [
+      {
+        "QuirkName": "Lurker",
+        "QType": 0,
+        "QuirkDescription": "+10% DMG if Torch below 26"
+      },
+      {
+        "QuirkName": "Quick Reflexes",
+        "QType": 0,
+        "QuirkDescription": "+2 SPD"
+      },
+      {
+        "QuirkName": "Resilient",
+        "QType": 0,
+        "QuirkDescription": "+10% Stress Heal Received"
+      },
+      {
+        "QuirkName": "Tough",
+        "QType": 0,
+        "QuirkDescription": "+10% MAX HP"
+      }
+    ],
+    "NegativeQuirks": [
+      {
+        "QuirkName": "Hylomania",
+        "QType": 1,
+        "QuirkDescription": "Obsessed with material things"
+      },
+      {
+        "QuirkName": "Light Sensitive",
+        "QType": 1,
+        "QuirkDescription": "-10% DMG if Torch above 75"
+      },
+      {
+        "QuirkName": "Torn Rotator",
+        "QType": 1,
+        "QuirkDescription": "-5% DMG Melee Skills"
+      }
+    ]
+  },
+  {
+    "HeroClass": 16,
+    "HeroName": "Cioches",
+    "HeroLevel": 4,
+    "Diseases": [
+      {
+        "DiseaseName": "Hemophilia",
+        "DiseaseDescription": "-50% Bleed Resist"
+      }
+    ],
+    "Affliction": 1,
+    "Virtue": null,
+    "CauseOfDeath": "Crocodilian",
+    "PositiveQuirks": [
+      {
+        "QuirkName": "Fated",
+        "QType": 0,
+        "QuirkDescription": "10% chance to turn any MISS into a HIT"
+      },
+      {
+        "QuirkName": "Hot to Trot",
+        "QType": 0,
+        "QuirkDescription": "+25% DMG, +20 ACC, +5% CRIT on First Round"
+      },
+      {
+        "QuirkName": "Meditator",
+        "QType": 0,
+        "QuirkDescription": "+20% Stress Heal Received from Meditation (Does not actually increase Stress Heal Received while Camping)"
+      },
+      {
+        "QuirkName": "Ruins Scrounger",
+        "QType": 0,
+        "QuirkDescription": "+5% Scouting Chance in Ruins"
+      },
+      {
+        "QuirkName": "Weald Explorer",
+        "QType": 0,
+        "QuirkDescription": "+10% Scouting Chance in Weald"
+      }
+    ],
+    "NegativeQuirks": [
+      {
+        "QuirkName": "Anemic",
+        "QType": 1,
+        "QuirkDescription": "-10% Bleed Resist"
+      },
+      {
+        "QuirkName": "Calm",
+        "QType": 1,
+        "QuirkDescription": "-15% DMG on First Round"
+      },
+      {
+        "QuirkName": "Necromania",
+        "QType": 1,
+        "QuirkDescription": "Fascinated with corpses"
+      },
+      {
+        "QuirkName": "Stress Eater",
+        "QType": 1,
+        "QuirkDescription": "+100% Food Consumed if Stress above 50"
+      },
+      {
+        "QuirkName": "Weald Phobe",
+        "QType": 1,
+        "QuirkDescription": "+20% Stress in Weald"
+      }
+    ]
+  },
+  {
+    "HeroClass": 11,
+    "HeroName": "Comyn",
+    "HeroLevel": 5,
+    "Diseases": [
+      {
+        "DiseaseName": "Tetanus",
+        "DiseaseDescription": "-5 ACC , -5% CRIT"
+      }
+    ],
+    "Affliction": null,
+    "Virtue": null,
+    "CauseOfDeath": "Pelagic Piranha",
+    "PositiveQuirks": [
+      {
+        "QuirkName": "Daredevil",
+        "QType": 0,
+        "QuirkDescription": "+15 DODGE if HP below 25%"
+      },
+      {
+        "QuirkName": "Nymphomania",
+        "QType": 0,
+        "QuirkDescription": "+20% Stress Heal Received from Brothel"
+      },
+      {
+        "QuirkName": "Slugger",
+        "QType": 0,
+        "QuirkDescription": "+10% DMG Melee Skills"
+      },
+      {
+        "QuirkName": "Thick Blooded",
+        "QType": 0,
+        "QuirkDescription": "+10% Blight Resist"
+      },
+      {
+        "QuirkName": "Tough",
+        "QType": 0,
+        "QuirkDescription": "+10% MAX HP"
+      }
+    ],
+    "NegativeQuirks": [
+      {
+        "QuirkName": "Bad Healer",
+        "QType": 1,
+        "QuirkDescription": "-20% Healing Skills"
+      },
+      {
+        "QuirkName": "Deviant Tastes",
+        "QType": 1,
+        "QuirkDescription": "Is not allowed to visit the Brothel"
+      },
+      {
+        "QuirkName": "Nervous Bleeder",
+        "QType": 1,
+        "QuirkDescription": "-10 ACC while Bleeding"
+      },
+      {
+        "QuirkName": "Guilty Conscience",
+        "QType": 1,
+        "QuirkDescription": "Bears the crushing guilt of deeds real and imagined"
+      },
+      {
+        "QuirkName": "Known Cheat",
+        "QType": 1,
+        "QuirkDescription": "Is not allowed to visit the Gambling Hall"
+      }
+    ]
+  },
+  {
+    "HeroClass": 12,
+    "HeroName": "Corbiére",
+    "HeroLevel": 4,
+    "Diseases": [
+      {
+        "DiseaseName": "The Worries",
+        "DiseaseDescription": "+30% Stress"
+      }
+    ],
+    "Affliction": 7,
+    "Virtue": null,
+    "CauseOfDeath": "Heart attack",
+    "PositiveQuirks": [
+      {
+        "QuirkName": "Cove Scrounger",
+        "QType": 0,
+        "QuirkDescription": "+5% Scouting Chance in Cove"
+      },
+      {
+        "QuirkName": "Beast Hater",
+        "QType": 0,
+        "QuirkDescription": "+15% DMG and -15% Stress vs Beast"
+      },
+      {
+        "QuirkName": "Beast Slayer",
+        "QType": 0,
+        "QuirkDescription": "+10 ACC and +5% CRIT vs Beast"
+      },
+      {
+        "QuirkName": "Unholy Slayer",
+        "QType": 0,
+        "QuirkDescription": "+10 ACC and +5% CRIT vs Unholy"
+      },
+      {
+        "QuirkName": "Spiritual",
+        "QType": 0,
+        "QuirkDescription": "Divine Grace, Divine Comfort: +25% Healing Received"
+      }
+    ],
+    "NegativeQuirks": [
+      {
+        "QuirkName": "Hagiomania",
+        "QType": 1,
+        "QuirkDescription": "Obsessed with sainthood"
+      },
+      {
+        "QuirkName": "Nervous Bleeder",
+        "QType": 1,
+        "QuirkDescription": "-10 ACC while Bleeding"
+      },
+      {
+        "QuirkName": "Mercurial",
+        "QType": 1,
+        "QuirkDescription": "-5% Virtue Chance"
+      }
+    ]
+  },
+  {
+    "HeroClass": 13,
+    "HeroName": "Darcy",
+    "HeroLevel": 6,
+    "Diseases": [
+      {
+        "DiseaseName": "Black Plague",
+        "DiseaseDescription": "-75% Blight Resist , -75% Disease Resist , -10% MAX HP , -5 SPD"
+      }
+    ],
+    "Affliction": 2,
+    "Virtue": null,
+    "CauseOfDeath": "Heart attack",
+    "PositiveQuirks": [
+      {
+        "QuirkName": "Gothic",
+        "QType": 0,
+        "QuirkDescription": "Wyrd Reconstruction: +25% Healing Received"
+      },
+      {
+        "QuirkName": "Mankind Hater",
+        "QType": 0,
+        "QuirkDescription": "+15% DMG and -15% Stress vs Human"
+      },
+      {
+        "QuirkName": "Ruins Explorer",
+        "QType": 0,
+        "QuirkDescription": "+10% Scouting Chance in Ruins"
+      },
+      {
+        "QuirkName": "Slugger",
+        "QType": 0,
+        "QuirkDescription": "+10% DMG Melee Skills"
+      },
+      {
+        "QuirkName": "Warrens Explorer",
+        "QType": 0,
+        "QuirkDescription": "+10% Scouting Chance in Warrens"
+      }
+    ],
+    "NegativeQuirks": [
+      {
+        "QuirkName": "Hagiomania",
+        "QType": 1,
+        "QuirkDescription": "Obsessed with sainthood"
+      },
+      {
+        "QuirkName": "Love Interest",
+        "QType": 1,
+        "QuirkDescription": "In town, will only visit the Brothel for stress relief"
+      },
+      {
+        "QuirkName": "Sickly",
+        "QType": 1,
+        "QuirkDescription": "-10% Disease Resist"
+      },
+      {
+        "QuirkName": "Deviant Tastes",
+        "QType": 1,
+        "QuirkDescription": "Is not allowed to visit the Brothel"
+      },
+      {
+        "QuirkName": "Scientific",
+        "QType": 1,
+        "QuirkDescription": "Divine Grace, Divine Comfort: -20% Healing Received"
+      }
+    ]
+  },
+  {
+    "HeroClass": 16,
+    "HeroName": "Godard",
+    "HeroLevel": 5,
+    "Diseases": [],
+    "Affliction": 1,
+    "Virtue": null,
+    "CauseOfDeath": "Heart attack",
+    "PositiveQuirks": [
+      {
+        "QuirkName": "Deadly",
+        "QType": 0,
+        "QuirkDescription": "+2% CRIT"
+      },
+      {
+        "QuirkName": "Eagle Eye",
+        "QType": 0,
+        "QuirkDescription": "+5% CRIT Ranged Skills"
+      },
+      {
+        "QuirkName": "Hippocratic",
+        "QType": 0,
+        "QuirkDescription": "+20% Healing Skills"
+      },
+      {
+        "QuirkName": "Ruins Tactician",
+        "QType": 0,
+        "QuirkDescription": "+15% DMG in Ruins"
+      },
+      {
+        "QuirkName": "Man Slayer",
+        "QType": 0,
+        "QuirkDescription": "+10 ACC and +5% CRIT vs Human"
+      }
+    ],
+    "NegativeQuirks": [
+      {
+        "QuirkName": "Guilty Conscience",
+        "QType": 1,
+        "QuirkDescription": "Bears the crushing guilt of deeds real and imagined"
+      },
+      {
+        "QuirkName": "Torn Rotator",
+        "QType": 1,
+        "QuirkDescription": "-5% DMG Melee Skills"
+      },
+      {
+        "QuirkName": "Kleptomaniac",
+        "QType": 1,
+        "QuirkDescription": "Prone to stealing"
+      }
+    ]
+  },
+  {
+    "HeroClass": 3,
+    "HeroName": "Gortat",
+    "HeroLevel": 6,
+    "Diseases": [],
+    "Affliction": 3,
+    "Virtue": null,
+    "CauseOfDeath": "Countess",
+    "PositiveQuirks": [
+      {
+        "QuirkName": "Photomania",
+        "QType": 0,
+        "QuirkDescription": "-20% Stress if Torch above 75"
+      },
+      {
+        "QuirkName": "Eldritch Slayer",
+        "QType": 0,
+        "QuirkDescription": "+10 ACC and +5% CRIT vs Eldritch"
+      },
+      {
+        "QuirkName": "Thick Blooded",
+        "QType": 0,
+        "QuirkDescription": "+10% Blight Resist"
+      },
+      {
+        "QuirkName": "Warrior of Light",
+        "QType": 0,
+        "QuirkDescription": "+10% DMG if Torch above 75"
+      },
+      {
+        "QuirkName": "Weald Scrounger",
+        "QType": 0,
+        "QuirkDescription": "+5% Scouting Chance in Weald"
+      }
+    ],
+    "NegativeQuirks": [
+      {
+        "QuirkName": "Dacnomania",
+        "QType": 1,
+        "QuirkDescription": "Obsessed with killing"
+      },
+      {
+        "QuirkName": "Gambler",
+        "QType": 1,
+        "QuirkDescription": "In town, will only Gamble for stress relief"
+      },
+      {
+        "QuirkName": "Witness",
+        "QType": 1,
+        "QuirkDescription": "After seeing troubling behavior, will not take part in Prayer activity in town"
+      },
+      {
+        "QuirkName": "Demonomania",
+        "QType": 1,
+        "QuirkDescription": "Believes is possessed by demons"
+      },
+      {
+        "QuirkName": "Scattering",
+        "QType": 1,
+        "QuirkDescription": "-5% DMG Ranged Skills"
+      }
+    ]
+  },
+  {
+    "HeroClass": 16,
+    "HeroName": "Grażka",
+    "HeroLevel": 6,
+    "Diseases": [
+      {
+        "DiseaseName": "The Fits",
+        "DiseaseDescription": "+3 SPD , -5 ACC , -5% CRIT"
+      }
+    ],
+    "Affliction": 9,
+    "Virtue": null,
+    "CauseOfDeath": "Infamous Fusilier",
+    "PositiveQuirks": [
+      {
+        "QuirkName": "Armor Tinker",
+        "QType": 0,
+        "QuirkDescription": "-20% Armor Upgrade Cost at the Blacksmith"
+      },
+      {
+        "QuirkName": "Clotter",
+        "QType": 0,
+        "QuirkDescription": "+15% Bleed Resist"
+      },
+      {
+        "QuirkName": "Last Gasp",
+        "QType": 0,
+        "QuirkDescription": "+1 SPD if HP below 50%"
+      },
+      {
+        "QuirkName": "Warrens Scrounger",
+        "QType": 0,
+        "QuirkDescription": "+5% Scouting Chance in Warrens"
+      },
+      {
+        "QuirkName": "Warrior of Light",
+        "QType": 0,
+        "QuirkDescription": "+10% DMG if Torch above 75"
+      }
+    ],
+    "NegativeQuirks": [
+      {
+        "QuirkName": "Deviant Tastes",
+        "QType": 1,
+        "QuirkDescription": "Is not allowed to visit the Brothel"
+      },
+      {
+        "QuirkName": "Faithless",
+        "QType": 1,
+        "QuirkDescription": "Will not Pray or Flagellate for stress relief."
+      },
+      {
+        "QuirkName": "Lygophobia",
+        "QType": 1,
+        "QuirkDescription": "+20% Stress if Torch below 26"
+      },
+      {
+        "QuirkName": "Automatonophobia",
+        "QType": 1,
+        "QuirkDescription": "+20% Stress vs Human"
+      },
+      {
+        "QuirkName": "Sitiomania",
+        "QType": 1,
+        "QuirkDescription": "Obsessed with food"
+      }
+    ]
+  },
+  {
+    "HeroClass": 15,
+    "HeroName": "Hallé",
+    "HeroLevel": 2,
+    "Diseases": [],
+    "Affliction": null,
+    "Virtue": null,
+    "CauseOfDeath": "Brigand Bloodletter",
+    "PositiveQuirks": [
+      {
+        "QuirkName": "Cove Scrounger",
+        "QType": 0,
+        "QuirkDescription": "+5% Scouting Chance in Cove"
+      },
+      {
+        "QuirkName": "Ruins Scrounger",
+        "QType": 0,
+        "QuirkDescription": "+5% Scouting Chance in Ruins"
+      },
+      {
+        "QuirkName": "Unholy Slayer",
+        "QType": 0,
+        "QuirkDescription": "+10 ACC and +5% CRIT vs Unholy"
+      }
+    ],
+    "NegativeQuirks": [
+      {
+        "QuirkName": "Night Blindness",
+        "QType": 1,
+        "QuirkDescription": "-10% DMG if Torch below 26"
+      },
+      {
+        "QuirkName": "Deviant Tastes",
+        "QType": 1,
+        "QuirkDescription": "Is not allowed to visit the Brothel"
+      },
+      {
+        "QuirkName": "Fading",
+        "QType": 1,
+        "QuirkDescription": "-2 SPD, -5 DODGE"
+      }
+    ]
+  },
+  {
+    "HeroClass": 6,
+    "HeroName": "Hania",
+    "HeroLevel": 6,
+    "Diseases": [],
+    "Affliction": null,
+    "Virtue": null,
+    "CauseOfDeath": "Darkest Dungeon Retreat",
+    "PositiveQuirks": [
+      {
+        "QuirkName": "Balanced",
+        "QType": 0,
+        "QuirkDescription": "+15% Move Resist"
+      },
+      {
+        "QuirkName": "Luminous",
+        "QType": 0,
+        "QuirkDescription": "+2 SPD, +5 DODGE"
+      },
+      {
+        "QuirkName": "Natural Eye",
+        "QType": 0,
+        "QuirkDescription": "+5 ACC Ranged Skills"
+      },
+      {
+        "QuirkName": "Skilled Gambler",
+        "QType": 0,
+        "QuirkDescription": "+12.9% chance of winning money and +13.3% chance of winning trinkets while Gambling"
+      },
+      {
+        "QuirkName": "Warrens Tactician",
+        "QType": 0,
+        "QuirkDescription": "+15% DMG in Warrens"
+      }
+    ],
+    "NegativeQuirks": [
+      {
+        "QuirkName": "Hylomania",
+        "QType": 1,
+        "QuirkDescription": "Obsessed with material things"
+      },
+      {
+        "QuirkName": "Phengophobia",
+        "QType": 1,
+        "QuirkDescription": "+20% Stress if Torch above 75"
+      },
+      {
+        "QuirkName": "Plutomania",
+        "QType": 1,
+        "QuirkDescription": "Manic for money"
+      },
+      {
+        "QuirkName": "Bloodthirsty",
+        "QType": 1,
+        "QuirkDescription": "Fascinated with injury, wounds, and torture"
+      },
+      {
+        "QuirkName": "Deviant Tastes",
+        "QType": 1,
+        "QuirkDescription": "Is not allowed to visit the Brothel"
+      }
+    ]
+  },
+  {
+    "HeroClass": 8,
+    "HeroName": "Herbert",
+    "HeroLevel": 6,
+    "Diseases": [],
+    "Affliction": null,
+    "Virtue": null,
+    "CauseOfDeath": "Bleed",
+    "PositiveQuirks": [
+      {
+        "QuirkName": "Night Owl",
+        "QType": 0,
+        "QuirkDescription": "+2 SPD if Torch below 26"
+      },
+      {
+        "QuirkName": "Quickdraw",
+        "QType": 0,
+        "QuirkDescription": "+4 SPD on First Round"
+      },
+      {
+        "QuirkName": "Unholy Slayer",
+        "QType": 0,
+        "QuirkDescription": "+10 ACC and +5% CRIT vs Unholy"
+      },
+      {
+        "QuirkName": "Thick Blooded",
+        "QType": 0,
+        "QuirkDescription": "+10% Blight Resist"
+      },
+      {
+        "QuirkName": "Weald Tactician",
+        "QType": 0,
+        "QuirkDescription": "+15% DMG in Weald"
+      }
+    ],
+    "NegativeQuirks": [
+      {
+        "QuirkName": "Bloodthirsty",
+        "QType": 1,
+        "QuirkDescription": "Fascinated with injury, wounds, and torture"
+      },
+      {
+        "QuirkName": "Off Guard",
+        "QType": 1,
+        "QuirkDescription": "-4 SPD and -5 DODGE on First Round"
+      },
+      {
+        "QuirkName": "Phengophobia",
+        "QType": 1,
+        "QuirkDescription": "+20% Stress if Torch above 75"
+      },
+      {
+        "QuirkName": "Slow Reflexes",
+        "QType": 1,
+        "QuirkDescription": "-1 SPD"
+      },
+      {
+        "QuirkName": "Witness",
+        "QType": 1,
+        "QuirkDescription": "After seeing troubling behavior, will not take part in Prayer activity in town"
+      }
+    ]
+  },
+  {
+    "HeroClass": 16,
+    "HeroName": "Hodenc",
+    "HeroLevel": 4,
+    "Diseases": [
+      {
+        "DiseaseName": "Spasm of the Entrails",
+        "DiseaseDescription": "-20% Healing Skills while Camping"
+      }
+    ],
+    "Affliction": 6,
+    "Virtue": null,
+    "CauseOfDeath": "Heart attack",
+    "PositiveQuirks": [
+      {
+        "QuirkName": "Evasive",
+        "QType": 0,
+        "QuirkDescription": "+5 DODGE"
+      },
+      {
+        "QuirkName": "Quickdraw",
+        "QType": 0,
+        "QuirkDescription": "+4 SPD on First Round"
+      },
+      {
+        "QuirkName": "Unerring",
+        "QType": 0,
+        "QuirkDescription": "+10% DMG Ranged Skills"
+      }
+    ],
+    "NegativeQuirks": [
+      {
+        "QuirkName": "Antsy",
+        "QType": 1,
+        "QuirkDescription": "+20 Stress when left Idle for the week"
+      },
+      {
+        "QuirkName": "Slow Reflexes",
+        "QType": 1,
+        "QuirkDescription": "-1 SPD"
+      },
+      {
+        "QuirkName": "Winded",
+        "QType": 1,
+        "QuirkDescription": "-1 SPD if HP below 50%"
+      },
+      {
+        "QuirkName": "Hieromania",
+        "QType": 1,
+        "QuirkDescription": "Experiences religious visions and delusions"
+      },
+      {
+        "QuirkName": "Tone Deaf",
+        "QType": 1,
+        "QuirkDescription": "Inspiring Tune: -20% Stress Heal Received"
+      }
+    ]
+  },
+  {
+    "HeroClass": 6,
+    "HeroName": "Iza",
+    "HeroLevel": 6,
+    "Diseases": [],
+    "Affliction": null,
+    "Virtue": null,
+    "CauseOfDeath": "Brigand 16 Pounder",
+    "PositiveQuirks": [
+      {
+        "QuirkName": "Eldritch Hater",
+        "QType": 0,
+        "QuirkDescription": "+15% DMG and -15% Stress vs Eldritch"
+      },
+      {
+        "QuirkName": "Hippocratic",
+        "QType": 0,
+        "QuirkDescription": "+20% Healing Skills"
+      },
+      {
+        "QuirkName": "Quick Reflexes",
+        "QType": 0,
+        "QuirkDescription": "+2 SPD"
+      },
+      {
+        "QuirkName": "Second Wind",
+        "QType": 0,
+        "QuirkDescription": "+10% DMG if HP below 50%"
+      },
+      {
+        "QuirkName": "Skilled Gambler",
+        "QType": 0,
+        "QuirkDescription": "+12.9% chance of winning money and +13.3% chance of winning trinkets while Gambling"
+      }
+    ],
+    "NegativeQuirks": [
+      {
+        "QuirkName": "Deviant Tastes",
+        "QType": 1,
+        "QuirkDescription": "Is not allowed to visit the Brothel"
+      },
+      {
+        "QuirkName": "Egomania",
+        "QType": 1,
+        "QuirkDescription": "Obsessed with self-worship"
+      },
+      {
+        "QuirkName": "Misses the Spot",
+        "QType": 1,
+        "QuirkDescription": "-2% CRIT"
+      },
+      {
+        "QuirkName": "Nervous Bleeder",
+        "QType": 1,
+        "QuirkDescription": "-10 ACC while Bleeding"
+      }
+    ]
+  },
+  {
+    "HeroClass": 16,
+    "HeroName": "Jadzia",
+    "HeroLevel": 6,
+    "Diseases": [
+      {
+        "DiseaseName": "Wasting Sickness",
+        "DiseaseDescription": "-50% Disease Resist"
+      },
+      {
+        "DiseaseName": "Rabies",
+        "DiseaseDescription": "+15% DMG , -10 ACC"
+      },
+      {
+        "DiseaseName": "Ennui",
+        "DiseaseDescription": "-25% Virtue Chance"
+      }
+    ],
+    "Affliction": 2,
+    "Virtue": null,
+    "CauseOfDeath": "Heart of Darkness",
+    "PositiveQuirks": [
+      {
+        "QuirkName": "Cove Adventurer",
+        "QType": 0,
+        "QuirkDescription": "-20% Stress in Cove"
+      },
+      {
+        "QuirkName": "Cove Tactician",
+        "QType": 0,
+        "QuirkDescription": "+15% DMG in Cove"
+      },
+      {
+        "QuirkName": "Early Riser",
+        "QType": 0,
+        "QuirkDescription": "+2 SPD if Torch above 75"
+      },
+      {
+        "QuirkName": "Healer's Gift",
+        "QType": 0,
+        "QuirkDescription": "+20% Healing Skills while Camping"
+      },
+      {
+        "QuirkName": "Weald Scrounger",
+        "QType": 0,
+        "QuirkDescription": "+5% Scouting Chance in Weald"
+      }
+    ],
+    "NegativeQuirks": [
+      {
+        "QuirkName": "Flagellant",
+        "QType": 1,
+        "QuirkDescription": "In Town, will only Flagellate for stress relief"
+      },
+      {
+        "QuirkName": "Resolution",
+        "QType": 1,
+        "QuirkDescription": "In town, will never Drink"
+      },
+      {
+        "QuirkName": "Warrens Phobe",
+        "QType": 1,
+        "QuirkDescription": "+20% Stress in Warrens"
+      },
+      {
+        "QuirkName": "Dacnomania",
+        "QType": 1,
+        "QuirkDescription": "Obsessed with killing"
+      },
+      {
+        "QuirkName": "Nervous Bleeder",
+        "QType": 1,
+        "QuirkDescription": "-10 ACC while Bleeding"
+      }
+    ]
+  },
+  {
+    "HeroClass": 4,
+    "HeroName": "Jolland",
+    "HeroLevel": 0,
+    "Diseases": [],
+    "Affliction": null,
+    "Virtue": null,
+    "CauseOfDeath": "Blight",
+    "PositiveQuirks": [
+      {
+        "QuirkName": "Ruins Adventurer",
+        "QType": 0,
+        "QuirkDescription": "-20% Stress in Ruins"
+      },
+      {
+        "QuirkName": "Man Slayer",
+        "QType": 0,
+        "QuirkDescription": "+10 ACC and +5% CRIT vs Human"
+      }
+    ],
+    "NegativeQuirks": [
+      {
+        "QuirkName": "Night Blindness",
+        "QType": 1,
+        "QuirkDescription": "-10% DMG if Torch below 26"
+      },
+      {
+        "QuirkName": "Weak Grip",
+        "QType": 1,
+        "QuirkDescription": "-5% CRIT Melee Skills"
+      }
+    ]
+  },
+  {
+    "HeroClass": 3,
+    "HeroName": "Juleg",
+    "HeroLevel": 6,
+    "Diseases": [],
+    "Affliction": null,
+    "Virtue": null,
+    "CauseOfDeath": "Countess",
+    "PositiveQuirks": [
+      {
+        "QuirkName": "Hard Skinned",
+        "QType": 0,
+        "QuirkDescription": "+10% PROT"
+      },
+      {
+        "QuirkName": "Skilled Gambler",
+        "QType": 0,
+        "QuirkDescription": "+12.9% chance of winning money and +13.3% chance of winning trinkets while Gambling"
+      },
+      {
+        "QuirkName": "Beast Slayer",
+        "QType": 0,
+        "QuirkDescription": "+10 ACC and +5% CRIT vs Beast"
+      },
+      {
+        "QuirkName": "Thick Blooded",
+        "QType": 0,
+        "QuirkDescription": "+10% Blight Resist"
+      },
+      {
+        "QuirkName": "Tough",
+        "QType": 0,
+        "QuirkDescription": "+10% MAX HP"
+      }
+    ],
+    "NegativeQuirks": [
+      {
+        "QuirkName": "Compulsive",
+        "QType": 1,
+        "QuirkDescription": "Suffers intense need to do specific actions"
+      },
+      {
+        "QuirkName": "Night Blindness",
+        "QType": 1,
+        "QuirkDescription": "-10% DMG if Torch below 26"
+      },
+      {
+        "QuirkName": "Sickly",
+        "QType": 1,
+        "QuirkDescription": "-10% Disease Resist"
+      },
+      {
+        "QuirkName": "Automatonophobia",
+        "QType": 1,
+        "QuirkDescription": "+20% Stress vs Human"
+      },
+      {
+        "QuirkName": "Scientific",
+        "QType": 1,
+        "QuirkDescription": "Divine Grace, Divine Comfort: -20% Healing Received"
+      }
+    ]
+  },
+  {
+    "HeroClass": 15,
+    "HeroName": "L'ile",
+    "HeroLevel": 6,
+    "Diseases": [
+      {
+        "DiseaseName": "Crimson Curse",
+        "DiseaseDescription": "Turns the hero into a vampire"
+      }
+    ],
+    "Affliction": 3,
+    "Virtue": null,
+    "CauseOfDeath": "Heart attack",
+    "PositiveQuirks": [
+      {
+        "QuirkName": "Precise Striker",
+        "QType": 0,
+        "QuirkDescription": "+5% CRIT Melee Skills"
+      },
+      {
+        "QuirkName": "Cove Tactician",
+        "QType": 0,
+        "QuirkDescription": "+15% DMG in Cove"
+      },
+      {
+        "QuirkName": "Healer's Gift",
+        "QType": 0,
+        "QuirkDescription": "+20% Healing Skills while Camping"
+      },
+      {
+        "QuirkName": "Ruins Tactician",
+        "QType": 0,
+        "QuirkDescription": "+15% DMG in Ruins"
+      },
+      {
+        "QuirkName": "Warrens Tactician",
+        "QType": 0,
+        "QuirkDescription": "+15% DMG in Warrens"
+      }
+    ],
+    "NegativeQuirks": [
+      {
+        "QuirkName": "Lazy Eye",
+        "QType": 1,
+        "QuirkDescription": "-5 ACC Ranged Skills"
+      },
+      {
+        "QuirkName": "Phengophobia",
+        "QType": 1,
+        "QuirkDescription": "+20% Stress if Torch above 75"
+      },
+      {
+        "QuirkName": "Thanatophobia",
+        "QType": 1,
+        "QuirkDescription": "+20% Stress if HP below 50%"
+      },
+      {
+        "QuirkName": "Nocturnal",
+        "QType": 1,
+        "QuirkDescription": "-2 SPD if Torch above 75"
+      },
+      {
+        "QuirkName": "Resolution",
+        "QType": 1,
+        "QuirkDescription": "In town, will never Drink"
+      }
+    ]
+  },
+  {
+    "HeroClass": 4,
+    "HeroName": "Lucek",
+    "HeroLevel": 5,
+    "Diseases": [
+      {
+        "DiseaseName": "Rabies",
+        "DiseaseDescription": "+15% DMG , -10 ACC"
+      },
+      {
+        "DiseaseName": "The Fits",
+        "DiseaseDescription": "+3 SPD , -5 ACC , -5% CRIT"
+      }
+    ],
+    "Affliction": 6,
+    "Virtue": null,
+    "CauseOfDeath": "Bleed",
+    "PositiveQuirks": [
+      {
+        "QuirkName": "Cove Adventurer",
+        "QType": 0,
+        "QuirkDescription": "-20% Stress in Cove"
+      },
+      {
+        "QuirkName": "Gifted",
+        "QType": 0,
+        "QuirkDescription": "+20% Healing Received"
+      },
+      {
+        "QuirkName": "Musical",
+        "QType": 0,
+        "QuirkDescription": "Inspiring Tune: +25% Stress Heal Received"
+      },
+      {
+        "QuirkName": "Stout",
+        "QType": 0,
+        "QuirkDescription": "+15% Healing Skills while Camping"
+      },
+      {
+        "QuirkName": "Warrens Adventurer",
+        "QType": 0,
+        "QuirkDescription": "-20% Stress in Warrens"
+      }
+    ],
+    "NegativeQuirks": [
+      {
+        "QuirkName": "Dipsomania",
+        "QType": 1,
+        "QuirkDescription": "Intense craving for alcohol"
+      },
+      {
+        "QuirkName": "Perfectionist",
+        "QType": 1,
+        "QuirkDescription": "+5 Stress when attack misses"
+      },
+      {
+        "QuirkName": "Light Sensitive",
+        "QType": 1,
+        "QuirkDescription": "-10% DMG if Torch above 75"
+      },
+      {
+        "QuirkName": "Plutomania",
+        "QType": 1,
+        "QuirkDescription": "Manic for money"
+      },
+      {
+        "QuirkName": "Witness",
+        "QType": 1,
+        "QuirkDescription": "After seeing troubling behavior, will not take part in Prayer activity in town"
+      }
+    ]
+  },
+  {
+    "HeroClass": 15,
+    "HeroName": "Manneilli",
+    "HeroLevel": 4,
+    "Diseases": [
+      {
+        "DiseaseName": "Rabies",
+        "DiseaseDescription": "+15% DMG , -10 ACC"
+      }
+    ],
+    "Affliction": 2,
+    "Virtue": null,
+    "CauseOfDeath": "Heart attack",
+    "PositiveQuirks": [
+      {
+        "QuirkName": "Healer's Gift",
+        "QType": 0,
+        "QuirkDescription": "+20% Healing Skills while Camping"
+      },
+      {
+        "QuirkName": "Photomania",
+        "QType": 0,
+        "QuirkDescription": "-20% Stress if Torch above 75"
+      },
+      {
+        "QuirkName": "Tough",
+        "QType": 0,
+        "QuirkDescription": "+10% MAX HP"
+      }
+    ],
+    "NegativeQuirks": [
+      {
+        "QuirkName": "Tippler",
+        "QType": 1,
+        "QuirkDescription": "In town, will only visit the Bar for stress relief"
+      },
+      {
+        "QuirkName": "Clumsy",
+        "QType": 1,
+        "QuirkDescription": "-5 DODGE"
+      },
+      {
+        "QuirkName": "Tuckered Out",
+        "QType": 1,
+        "QuirkDescription": "-10% DMG if HP below 50%"
+      }
+    ]
+  },
+  {
+    "HeroClass": 16,
+    "HeroName": "Mobec",
+    "HeroLevel": 6,
+    "Diseases": [],
+    "Affliction": 4,
+    "Virtue": null,
+    "CauseOfDeath": "Blight",
+    "PositiveQuirks": [
+      {
+        "QuirkName": "Clotter",
+        "QType": 0,
+        "QuirkDescription": "+15% Bleed Resist"
+      },
+      {
+        "QuirkName": "Musical",
+        "QType": 0,
+        "QuirkDescription": "Inspiring Tune: +25% Stress Heal Received"
+      },
+      {
+        "QuirkName": "Quick Reflexes",
+        "QType": 0,
+        "QuirkDescription": "+2 SPD"
+      },
+      {
+        "QuirkName": "Robust",
+        "QType": 0,
+        "QuirkDescription": "+15% Disease Resist"
+      },
+      {
+        "QuirkName": "Ruins Explorer",
+        "QType": 0,
+        "QuirkDescription": "+10% Scouting Chance in Ruins"
+      }
+    ],
+    "NegativeQuirks": [
+      {
+        "QuirkName": "Antsy",
+        "QType": 1,
+        "QuirkDescription": "+20 Stress when left Idle for the week"
+      },
+      {
+        "QuirkName": "Calm",
+        "QType": 1,
+        "QuirkDescription": "-15% DMG on First Round"
+      },
+      {
+        "QuirkName": "Nervous Bleeder",
+        "QType": 1,
+        "QuirkDescription": "-10 ACC while Bleeding"
+      },
+      {
+        "QuirkName": "Claustrophobia",
+        "QType": 1,
+        "QuirkDescription": "+20% Stress in Hallways"
+      },
+      {
+        "QuirkName": "Warrens Phobe",
+        "QType": 1,
+        "QuirkDescription": "+20% Stress in Warrens"
+      }
+    ]
+  },
+  {
+    "HeroClass": 16,
+    "HeroName": "Nelond",
+    "HeroLevel": 4,
+    "Diseases": [],
+    "Affliction": null,
+    "Virtue": null,
+    "CauseOfDeath": "Horrid Shrieker",
+    "PositiveQuirks": [
+      {
+        "QuirkName": "Cove Explorer",
+        "QType": 0,
+        "QuirkDescription": "+10% Scouting Chance in Cove"
+      },
+      {
+        "QuirkName": "Balanced",
+        "QType": 0,
+        "QuirkDescription": "+15% Move Resist"
+      },
+      {
+        "QuirkName": "On Guard",
+        "QType": 0,
+        "QuirkDescription": "+4 SPD and +5 DODGE on First Round"
+      },
+      {
+        "QuirkName": "Eldritch Slayer",
+        "QType": 0,
+        "QuirkDescription": "+10 ACC and +5% CRIT vs Eldritch"
+      },
+      {
+        "QuirkName": "Stout",
+        "QType": 0,
+        "QuirkDescription": "+15% Healing Skills while Camping"
+      }
+    ],
+    "NegativeQuirks": [
+      {
+        "QuirkName": "Egomania",
+        "QType": 1,
+        "QuirkDescription": "Obsessed with self-worship"
+      },
+      {
+        "QuirkName": "Fading",
+        "QType": 1,
+        "QuirkDescription": "-2 SPD, -5 DODGE"
+      },
+      {
+        "QuirkName": "Shocker",
+        "QType": 1,
+        "QuirkDescription": "-10% Stun Resist"
+      },
+      {
+        "QuirkName": "Bloodthirsty",
+        "QType": 1,
+        "QuirkDescription": "Fascinated with injury, wounds, and torture"
+      }
+    ]
+  },
+  {
+    "HeroClass": 15,
+    "HeroName": "Postel",
+    "HeroLevel": 3,
+    "Diseases": [
+      {
+        "DiseaseName": "Tapeworm",
+        "DiseaseDescription": "+100% Food Consumed , 60% chance to interact with \"Food\" curios (steals loot)"
+      }
+    ],
+    "Affliction": null,
+    "Virtue": null,
+    "CauseOfDeath": "Heart attack",
+    "PositiveQuirks": [
+      {
+        "QuirkName": "Unholy Hater",
+        "QType": 0,
+        "QuirkDescription": "+15% DMG and -15% Stress vs Unholy"
+      },
+      {
+        "QuirkName": "Lurker",
+        "QType": 0,
+        "QuirkDescription": "+10% DMG if Torch below 26"
+      },
+      {
+        "QuirkName": "Natural Eye",
+        "QType": 0,
+        "QuirkDescription": "+5 ACC Ranged Skills"
+      },
+      {
+        "QuirkName": "Ruins Scrounger",
+        "QType": 0,
+        "QuirkDescription": "+5% Scouting Chance in Ruins"
+      },
+      {
+        "QuirkName": "Warrens Scrounger",
+        "QType": 0,
+        "QuirkDescription": "+5% Scouting Chance in Warrens"
+      }
+    ],
+    "NegativeQuirks": [
+      {
+        "QuirkName": "Deviant Tastes",
+        "QType": 1,
+        "QuirkDescription": "Is not allowed to visit the Brothel"
+      },
+      {
+        "QuirkName": "God Fearing",
+        "QType": 1,
+        "QuirkDescription": "In Town, will only Pray for stress relief."
+      },
+      {
+        "QuirkName": "Night Blindness",
+        "QType": 1,
+        "QuirkDescription": "-10% DMG if Torch below 26"
+      },
+      {
+        "QuirkName": "Phengophobia",
+        "QType": 1,
+        "QuirkDescription": "+20% Stress if Torch above 75"
+      },
+      {
+        "QuirkName": "Risktaker",
+        "QType": 1,
+        "QuirkDescription": "+10% DMG, -10 DODGE"
+      }
+    ]
+  },
+  {
+    "HeroClass": 7,
+    "HeroName": "Quiévremont",
+    "HeroLevel": 6,
+    "Diseases": [
+      {
+        "DiseaseName": "Spasm of the Entrails",
+        "DiseaseDescription": "-20% Healing Skills while Camping"
+      }
+    ],
+    "Affliction": null,
+    "Virtue": null,
+    "CauseOfDeath": "Bleed",
+    "PositiveQuirks": [
+      {
+        "QuirkName": "Early Riser",
+        "QType": 0,
+        "QuirkDescription": "+2 SPD if Torch above 75"
+      },
+      {
+        "QuirkName": "Gifted",
+        "QType": 0,
+        "QuirkDescription": "+20% Healing Received"
+      },
+      {
+        "QuirkName": "Unholy Hater",
+        "QType": 0,
+        "QuirkDescription": "+15% DMG and -15% Stress vs Unholy"
       }
     ],
     "NegativeQuirks": [
@@ -31,9 +1793,631 @@
         "QuirkDescription": "+20% Stress vs Beast"
       },
       {
-        "QuirkName": "Cove Phobe",
+        "QuirkName": "Nocturnal",
         "QType": 1,
-        "QuirkDescription": "+20% Stress in Cove"
+        "QuirkDescription": "-2 SPD if Torch above 75"
+      },
+      {
+        "QuirkName": "Sickly",
+        "QType": 1,
+        "QuirkDescription": "-10% Disease Resist"
+      }
+    ]
+  },
+  {
+    "HeroClass": 15,
+    "HeroName": "Regamey",
+    "HeroLevel": 6,
+    "Diseases": [
+      {
+        "DiseaseName": "Hysterical Blindness",
+        "DiseaseDescription": "-20 ACC if Stress above 70"
+      }
+    ],
+    "Affliction": 5,
+    "Virtue": null,
+    "CauseOfDeath": "Brigand 16 Pounder",
+    "PositiveQuirks": [
+      {
+        "QuirkName": "Deadly",
+        "QType": 0,
+        "QuirkDescription": "+2% CRIT"
+      },
+      {
+        "QuirkName": "Daredevil",
+        "QType": 0,
+        "QuirkDescription": "+15 DODGE if HP below 25%"
+      },
+      {
+        "QuirkName": "Nymphomania",
+        "QType": 0,
+        "QuirkDescription": "+20% Stress Heal Received from Brothel"
+      },
+      {
+        "QuirkName": "Steady",
+        "QType": 0,
+        "QuirkDescription": "-10% Stress"
+      }
+    ],
+    "NegativeQuirks": [
+      {
+        "QuirkName": "Fear of Eldritch",
+        "QType": 1,
+        "QuirkDescription": "+15% Stress and -10 ACC vs Eldritch"
+      },
+      {
+        "QuirkName": "Ashen",
+        "QType": 1,
+        "QuirkDescription": "-10% Bleed Resist, -10% Blight Resist"
+      },
+      {
+        "QuirkName": "Fear of Unholy",
+        "QType": 1,
+        "QuirkDescription": "+15% Stress and -10 ACC vs Unholy"
+      },
+      {
+        "QuirkName": "Scattering",
+        "QType": 1,
+        "QuirkDescription": "-5% DMG Ranged Skills"
+      }
+    ]
+  },
+  {
+    "HeroClass": 12,
+    "HeroName": "Restault",
+    "HeroLevel": 3,
+    "Diseases": [],
+    "Affliction": 6,
+    "Virtue": null,
+    "CauseOfDeath": "Heart attack",
+    "PositiveQuirks": [
+      {
+        "QuirkName": "Fated",
+        "QType": 0,
+        "QuirkDescription": "10% chance to turn any MISS into a HIT"
+      },
+      {
+        "QuirkName": "Irrepressible",
+        "QType": 0,
+        "QuirkDescription": "+5% Virtue Chance"
+      },
+      {
+        "QuirkName": "Eldritch Slayer",
+        "QType": 0,
+        "QuirkDescription": "+10 ACC and +5% CRIT vs Eldritch"
+      },
+      {
+        "QuirkName": "Unyielding",
+        "QType": 0,
+        "QuirkDescription": "+10% Death Blow Resist"
+      }
+    ],
+    "NegativeQuirks": [
+      {
+        "QuirkName": "Dacnomania",
+        "QType": 1,
+        "QuirkDescription": "Obsessed with killing"
+      },
+      {
+        "QuirkName": "Flagellant",
+        "QType": 1,
+        "QuirkDescription": "In Town, will only Flagellate for stress relief"
+      },
+      {
+        "QuirkName": "Nocturnal",
+        "QType": 1,
+        "QuirkDescription": "-2 SPD if Torch above 75"
+      },
+      {
+        "QuirkName": "Lazy Eye",
+        "QType": 1,
+        "QuirkDescription": "-5 ACC Ranged Skills"
+      },
+      {
+        "QuirkName": "Winded",
+        "QType": 1,
+        "QuirkDescription": "-1 SPD if HP below 50%"
+      }
+    ]
+  },
+  {
+    "HeroClass": 5,
+    "HeroName": "Roard",
+    "HeroLevel": 1,
+    "Diseases": [],
+    "Affliction": null,
+    "Virtue": null,
+    "CauseOfDeath": "Heart attack",
+    "PositiveQuirks": [
+      {
+        "QuirkName": "Ruins Tactician",
+        "QType": 0,
+        "QuirkDescription": "+15% DMG in Ruins"
+      },
+      {
+        "QuirkName": "Weald Explorer",
+        "QType": 0,
+        "QuirkDescription": "+10% Scouting Chance in Weald"
+      }
+    ],
+    "NegativeQuirks": [
+      {
+        "QuirkName": "Ascetic",
+        "QType": 1,
+        "QuirkDescription": "Wyrd Reconstruction: -20% Healing Received"
+      },
+      {
+        "QuirkName": "Automatonophobia",
+        "QType": 1,
+        "QuirkDescription": "+20% Stress vs Human"
+      },
+      {
+        "QuirkName": "Fear of Beasts",
+        "QType": 1,
+        "QuirkDescription": "+15% Stress and -10 ACC vs Beast"
+      },
+      {
+        "QuirkName": "Paranormania",
+        "QType": 1,
+        "QuirkDescription": "Obsessed with the paranormal"
+      }
+    ]
+  },
+  {
+    "HeroClass": 15,
+    "HeroName": "SpearDancer",
+    "HeroLevel": 6,
+    "Diseases": [
+      {
+        "DiseaseName": "Ennui",
+        "DiseaseDescription": "-25% Virtue Chance"
+      }
+    ],
+    "Affliction": 4,
+    "Virtue": null,
+    "CauseOfDeath": "Bone Shieldwall",
+    "PositiveQuirks": [
+      {
+        "QuirkName": "Gothic",
+        "QType": 0,
+        "QuirkDescription": "Wyrd Reconstruction: +25% Healing Received"
+      },
+      {
+        "QuirkName": "Last Gasp",
+        "QType": 0,
+        "QuirkDescription": "+1 SPD if HP below 50%"
+      },
+      {
+        "QuirkName": "Second Wind",
+        "QType": 0,
+        "QuirkDescription": "+10% DMG if HP below 50%"
+      },
+      {
+        "QuirkName": "Skilled Gambler",
+        "QType": 0,
+        "QuirkDescription": "+12.9% chance of winning money and +13.3% chance of winning trinkets while Gambling"
+      },
+      {
+        "QuirkName": "Thick Blooded",
+        "QType": 0,
+        "QuirkDescription": "+10% Blight Resist"
+      }
+    ],
+    "NegativeQuirks": [
+      {
+        "QuirkName": "Calm",
+        "QType": 1,
+        "QuirkDescription": "-15% DMG on First Round"
+      },
+      {
+        "QuirkName": "Enlightened",
+        "QType": 1,
+        "QuirkDescription": "In Town, will only Meditate for stress relief"
+      },
+      {
+        "QuirkName": "Fear of Beasts",
+        "QType": 1,
+        "QuirkDescription": "+15% Stress and -10 ACC vs Beast"
+      },
+      {
+        "QuirkName": "Claustrophobia",
+        "QType": 1,
+        "QuirkDescription": "+20% Stress in Hallways"
+      }
+    ]
+  },
+  {
+    "HeroClass": 10,
+    "HeroName": "Spurdo",
+    "HeroLevel": 6,
+    "Diseases": [],
+    "Affliction": 1,
+    "Virtue": null,
+    "CauseOfDeath": "Heart attack",
+    "PositiveQuirks": [
+      {
+        "QuirkName": "Fast Healer",
+        "QType": 0,
+        "QuirkDescription": "+10% Healing Skills while Camping"
+      },
+      {
+        "QuirkName": "Resilient",
+        "QType": 0,
+        "QuirkDescription": "+10% Stress Heal Received"
+      },
+      {
+        "QuirkName": "Robust",
+        "QType": 0,
+        "QuirkDescription": "+15% Disease Resist"
+      },
+      {
+        "QuirkName": "Ruins Explorer",
+        "QType": 0,
+        "QuirkDescription": "+10% Scouting Chance in Ruins"
+      }
+    ],
+    "NegativeQuirks": [
+      {
+        "QuirkName": "Off Guard",
+        "QType": 1,
+        "QuirkDescription": "-4 SPD and -5 DODGE on First Round"
+      },
+      {
+        "QuirkName": "Light Sensitive",
+        "QType": 1,
+        "QuirkDescription": "-10% DMG if Torch above 75"
+      },
+      {
+        "QuirkName": "Demonomania",
+        "QType": 1,
+        "QuirkDescription": "Believes is possessed by demons"
+      },
+      {
+        "QuirkName": "Fear of Mankind",
+        "QType": 1,
+        "QuirkDescription": "+15% Stress and -10 ACC vs Human"
+      },
+      {
+        "QuirkName": "Hylomania",
+        "QType": 1,
+        "QuirkDescription": "Obsessed with material things"
+      }
+    ]
+  },
+  {
+    "HeroClass": 7,
+    "HeroName": "Thibault",
+    "HeroLevel": 6,
+    "Diseases": [],
+    "Affliction": null,
+    "Virtue": null,
+    "CauseOfDeath": "Countess",
+    "PositiveQuirks": [
+      {
+        "QuirkName": "Clutch Hitter",
+        "QType": 0,
+        "QuirkDescription": "+5% CRIT if HP below 50%"
+      },
+      {
+        "QuirkName": "Eagle Eye",
+        "QType": 0,
+        "QuirkDescription": "+5% CRIT Ranged Skills"
+      },
+      {
+        "QuirkName": "Unholy Slayer",
+        "QType": 0,
+        "QuirkDescription": "+10 ACC and +5% CRIT vs Unholy"
+      },
+      {
+        "QuirkName": "Tough",
+        "QType": 0,
+        "QuirkDescription": "+10% MAX HP"
+      },
+      {
+        "QuirkName": "Weald Explorer",
+        "QType": 0,
+        "QuirkDescription": "+10% Scouting Chance in Weald"
+      }
+    ],
+    "NegativeQuirks": [
+      {
+        "QuirkName": "Bloodthirsty",
+        "QType": 1,
+        "QuirkDescription": "Fascinated with injury, wounds, and torture"
+      },
+      {
+        "QuirkName": "Flagellant",
+        "QType": 1,
+        "QuirkDescription": "In Town, will only Flagellate for stress relief"
+      },
+      {
+        "QuirkName": "Light Sensitive",
+        "QType": 1,
+        "QuirkDescription": "-10% DMG if Torch above 75"
+      },
+      {
+        "QuirkName": "Dipsomania",
+        "QType": 1,
+        "QuirkDescription": "Intense craving for alcohol"
+      },
+      {
+        "QuirkName": "Soft",
+        "QType": 1,
+        "QuirkDescription": "-5% MAX HP"
+      }
+    ]
+  },
+  {
+    "HeroClass": 15,
+    "HeroName": "Thiboust",
+    "HeroLevel": 3,
+    "Diseases": [],
+    "Affliction": 3,
+    "Virtue": null,
+    "CauseOfDeath": "Crocodilian",
+    "PositiveQuirks": [
+      {
+        "QuirkName": "Deadly",
+        "QType": 0,
+        "QuirkDescription": "+2% CRIT"
+      },
+      {
+        "QuirkName": "Hippocratic",
+        "QType": 0,
+        "QuirkDescription": "+20% Healing Skills"
+      },
+      {
+        "QuirkName": "Ruins Tactician",
+        "QType": 0,
+        "QuirkDescription": "+15% DMG in Ruins"
+      },
+      {
+        "QuirkName": "Weald Tactician",
+        "QType": 0,
+        "QuirkDescription": "+15% DMG in Weald"
+      },
+      {
+        "QuirkName": "Weapon Tinker",
+        "QType": 0,
+        "QuirkDescription": "-20% Weapon Upgrade Cost at the Blacksmith"
+      }
+    ],
+    "NegativeQuirks": []
+  },
+  {
+    "HeroClass": 8,
+    "HeroName": "Tilly",
+    "HeroLevel": 3,
+    "Diseases": [],
+    "Affliction": 6,
+    "Virtue": null,
+    "CauseOfDeath": "Heart attack",
+    "PositiveQuirks": [
+      {
+        "QuirkName": "Fast Healer",
+        "QType": 0,
+        "QuirkDescription": "+10% Healing Skills while Camping"
+      },
+      {
+        "QuirkName": "Healer's Gift",
+        "QType": 0,
+        "QuirkDescription": "+20% Healing Skills while Camping"
+      },
+      {
+        "QuirkName": "Gothic",
+        "QType": 0,
+        "QuirkDescription": "Wyrd Reconstruction: +25% Healing Received"
+      },
+      {
+        "QuirkName": "Night Owl",
+        "QType": 0,
+        "QuirkDescription": "+2 SPD if Torch below 26"
+      },
+      {
+        "QuirkName": "Ruins Scrounger",
+        "QType": 0,
+        "QuirkDescription": "+5% Scouting Chance in Ruins"
+      }
+    ],
+    "NegativeQuirks": [
+      {
+        "QuirkName": "Fragile",
+        "QType": 1,
+        "QuirkDescription": "-10% MAX HP"
+      },
+      {
+        "QuirkName": "Imposter Syndrome",
+        "QType": 1,
+        "QuirkDescription": "\"Consumed by thoughts of inadequacy\" (4% chance to pass turn )"
+      }
+    ]
+  },
+  {
+    "HeroClass": 3,
+    "HeroName": "Vaux",
+    "HeroLevel": 6,
+    "Diseases": [],
+    "Affliction": null,
+    "Virtue": null,
+    "CauseOfDeath": "Horrid Shrieker",
+    "PositiveQuirks": [
+      {
+        "QuirkName": "Cove Scrounger",
+        "QType": 0,
+        "QuirkDescription": "+5% Scouting Chance in Cove"
+      },
+      {
+        "QuirkName": "Early Riser",
+        "QType": 0,
+        "QuirkDescription": "+2 SPD if Torch above 75"
+      },
+      {
+        "QuirkName": "Fast Healer",
+        "QType": 0,
+        "QuirkDescription": "+10% Healing Skills while Camping"
+      },
+      {
+        "QuirkName": "Natural Swing",
+        "QType": 0,
+        "QuirkDescription": "+5 ACC"
+      },
+      {
+        "QuirkName": "Resilient",
+        "QType": 0,
+        "QuirkDescription": "+10% Stress Heal Received"
+      }
+    ],
+    "NegativeQuirks": [
+      {
+        "QuirkName": "Satanophobia",
+        "QType": 1,
+        "QuirkDescription": "+20% Stress vs Unholy"
+      },
+      {
+        "QuirkName": "Scattering",
+        "QType": 1,
+        "QuirkDescription": "-5% DMG Ranged Skills"
+      },
+      {
+        "QuirkName": "Stress Eater",
+        "QType": 1,
+        "QuirkDescription": "+100% Food Consumed if Stress above 50"
+      },
+      {
+        "QuirkName": "Flagellant",
+        "QType": 1,
+        "QuirkDescription": "In Town, will only Flagellate for stress relief"
+      },
+      {
+        "QuirkName": "Weald Phobe",
+        "QType": 1,
+        "QuirkDescription": "+20% Stress in Weald"
+      }
+    ]
+  },
+  {
+    "HeroClass": 15,
+    "HeroName": "Vesci",
+    "HeroLevel": 6,
+    "Diseases": [
+      {
+        "DiseaseName": "Crimson Curse",
+        "DiseaseDescription": "Turns the hero into a vampire"
+      }
+    ],
+    "Affliction": 9,
+    "Virtue": null,
+    "CauseOfDeath": "Heart attack",
+    "PositiveQuirks": [
+      {
+        "QuirkName": "Cove Adventurer",
+        "QType": 0,
+        "QuirkDescription": "-20% Stress in Cove"
+      },
+      {
+        "QuirkName": "Cove Tactician",
+        "QType": 0,
+        "QuirkDescription": "+15% DMG in Cove"
+      },
+      {
+        "QuirkName": "Hard Skinned",
+        "QType": 0,
+        "QuirkDescription": "+10% PROT"
+      },
+      {
+        "QuirkName": "Lurker",
+        "QType": 0,
+        "QuirkDescription": "+10% DMG if Torch below 26"
+      },
+      {
+        "QuirkName": "Weald Scrounger",
+        "QType": 0,
+        "QuirkDescription": "+5% Scouting Chance in Weald"
+      }
+    ],
+    "NegativeQuirks": [
+      {
+        "QuirkName": "Plutomania",
+        "QType": 1,
+        "QuirkDescription": "Manic for money"
+      },
+      {
+        "QuirkName": "Ruins Phobe",
+        "QType": 1,
+        "QuirkDescription": "+20% Stress in Ruins"
+      },
+      {
+        "QuirkName": "Weald Phobe",
+        "QType": 1,
+        "QuirkDescription": "+20% Stress in Weald"
+      },
+      {
+        "QuirkName": "Claustrophobia",
+        "QType": 1,
+        "QuirkDescription": "+20% Stress in Hallways"
+      }
+    ]
+  },
+  {
+    "HeroClass": 8,
+    "HeroName": "Zły Kamil",
+    "HeroLevel": 6,
+    "Diseases": [],
+    "Affliction": null,
+    "Virtue": null,
+    "CauseOfDeath": "Countess",
+    "PositiveQuirks": [
+      {
+        "QuirkName": "Fated",
+        "QType": 0,
+        "QuirkDescription": "10% chance to turn any MISS into a HIT"
+      },
+      {
+        "QuirkName": "Gifted",
+        "QType": 0,
+        "QuirkDescription": "+20% Healing Received"
+      },
+      {
+        "QuirkName": "Eldritch Slayer",
+        "QType": 0,
+        "QuirkDescription": "+10 ACC and +5% CRIT vs Eldritch"
+      },
+      {
+        "QuirkName": "Stress Faster",
+        "QType": 0,
+        "QuirkDescription": "-100% Food Consumed if Stress above 50"
+      },
+      {
+        "QuirkName": "Warrens Scrounger",
+        "QType": 0,
+        "QuirkDescription": "+5% Scouting Chance in Warrens"
+      }
+    ],
+    "NegativeQuirks": [
+      {
+        "QuirkName": "Tippler",
+        "QType": 1,
+        "QuirkDescription": "In town, will only visit the Bar for stress relief"
+      },
+      {
+        "QuirkName": "Known Cheat",
+        "QType": 1,
+        "QuirkDescription": "Is not allowed to visit the Gambling Hall"
+      },
+      {
+        "QuirkName": "Satanophobia",
+        "QType": 1,
+        "QuirkDescription": "+20% Stress vs Unholy"
+      },
+      {
+        "QuirkName": "Compulsive",
+        "QType": 1,
+        "QuirkDescription": "Suffers intense need to do specific actions"
+      },
+      {
+        "QuirkName": "Unquiet Mind",
+        "QType": 1,
+        "QuirkDescription": "In town, will not meditate in the Cloister for stress relief"
       }
     ]
   }

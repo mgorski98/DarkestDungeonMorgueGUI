@@ -31,10 +31,10 @@ namespace DarkestDungeonMorgueGUI
                 uint count = 0;
                 try {
                     count = kills[hero.HeroLevel];
-                    kills.Add(hero.HeroLevel, ++count);
+                    kills[hero.HeroLevel] = ++count;
                 } catch (KeyNotFoundException) {
                     kills.Add(hero.HeroLevel, 1u);
-                }
+                } 
             }
 
             IDictionary<string, uint> mappedKills = kills.ToDictionary(e => Enum.GetName(typeof(HeroLevel), e.Key), e => e.Value);
@@ -46,7 +46,7 @@ namespace DarkestDungeonMorgueGUI
             CategoryAxis axis = new CategoryAxis() {
                 ItemsSource = mappedKills.Keys,
                 Key = "Hero levels",
-                Position = AxisPosition.Bottom
+                Position = AxisPosition.Left
             };
 
             levelPlot.Axes.Add(axis);

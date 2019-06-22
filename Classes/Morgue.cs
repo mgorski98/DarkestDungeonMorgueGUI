@@ -9,6 +9,10 @@ using System.Collections.ObjectModel;
 using Newtonsoft.Json;
 using System.Windows;
 
+//TODO: add a window containing info about a hero after a double click on listview item
+//TODO: add windows and buttons for charts
+//TODO: add application icon
+
 namespace DarkestDungeonMorgueGUI {
     public class Morgue {
 
@@ -58,9 +62,11 @@ namespace DarkestDungeonMorgueGUI {
             this.LoadData();
         }
 
-        public static Morgue GetInstance() {
-            if (Instance == null) Instance = new Morgue();
-            return Instance;
+        public static Morgue GetInstance() => Instance;
+
+        public static void InitInstance() {
+            if (Instance != null) return;
+            Instance = new Morgue();
         }
 
         #region LOADING AND SAVING METHODS
@@ -145,6 +151,29 @@ namespace DarkestDungeonMorgueGUI {
 
         #region COLLECTION METHODS
         public void AddHero(HeroDeath hd) => this.FallenHeroes.Add(hd);
+
+        public void SortFallenHeroes(HeroesSortType sortType) {
+            List<HeroDeath> tempHeroesList = new List<HeroDeath>(this.FallenHeroes);
+            switch (sortType) {
+
+                case HeroesSortType.Level:
+                    tempHeroesList = tempHeroesList.OrderByDescending(h => h.HeroLevel).ToList();
+                    break;
+
+                case HeroesSortType.Name:
+                    tempHeroesList = tempHeroesList.OrderBy(h => h.HeroName).ToList();
+                    break;
+
+                case HeroesSortType.Class:
+                    tempHeroesList = tempHeroesList.OrderBy(h => h.HeroClass).ToList();
+                    break;
+
+                default:
+                    throw new ArgumentException("Value wasn't defined in an enum!");
+            }
+            this.FallenHeroes.Clear();
+            this.FallenHeroes.AddRange(tempHeroesList);
+        }
         #endregion
     }
 }

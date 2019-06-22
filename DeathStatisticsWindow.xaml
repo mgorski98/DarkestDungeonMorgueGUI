@@ -1,0 +1,16 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DarkestDungeonMorgueGUI"
+        xmlns:oxy="http://oxyplot.org/wpf" x:Class="DarkestDungeonMorgueGUI.DeathStatisticsWindow"
+        mc:Ignorable="d"
+        Title="DeathStatisticsWindow" Height="450" Width="1000">
+    <Grid>
+
+        <oxy:PlotView Name="ClassPlot" HorizontalAlignment="Left" Height="400" Margin="10,10,0,0" VerticalAlignment="Top" Width="465"/>
+        <oxy:PlotView Name="LevelPlot" HorizontalAlignment="Right" Height="400" Margin="0,10,9.6,0" VerticalAlignment="Top" Width="465"/>
+
+    </Grid>
+</Window>

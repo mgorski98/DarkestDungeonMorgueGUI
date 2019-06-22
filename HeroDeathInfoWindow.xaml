@@ -1,0 +1,25 @@
+﻿<Window x:Class="DarkestDungeonMorgueGUI.HeroDeathInfoWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DarkestDungeonMorgueGUI"
+        mc:Ignorable="d"
+        Title="HeroDeathInfoWindow" Height="470" Width="350">
+    <Grid HorizontalAlignment="Stretch" Width="Auto" VerticalAlignment="Stretch" Height="Auto">
+        <Image Name="HeroPortrait" HorizontalAlignment="Left" Height="100" Margin="37,26,0,0" VerticalAlignment="Top" Width="100"/>
+        <TextBox BorderThickness="0" IsReadOnly="True" Name="HeroInfoTextBlock" HorizontalAlignment="Left" Margin="152,26,0,0" 
+                 TextWrapping="Wrap" Text="" TextAlignment="Left" VerticalAlignment="Top" Height="100" Width="150"/>
+        <TabControl HorizontalAlignment="Left" Height="239" Margin="37,159,0,0" VerticalAlignment="Top" Width="265">
+            <TabItem Header="Positive Quirks">
+                <ListBox Name="HeroPositiveQuirks"></ListBox>
+            </TabItem>
+            <TabItem Header="Negative Quirks">
+                <ListBox Name="HeroNegativeQuirks"></ListBox>
+            </TabItem>
+            <TabItem Header="Diseases">
+                <ListBox Name="HeroDiseases"></ListBox>
+            </TabItem>
+        </TabControl>
+    </Grid>
+</Window>

@@ -5,10 +5,11 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:DarkestDungeonMorgueGUI"
         mc:Ignorable="d"
-        Title="Darkest Dungeon Morgue" Height="650" Width="1050" KeyDown="GetKeyDownEvent"
+        Title="Darkest Dungeon Morgue" Height="650" Width="1050" KeyDown="GetKeyDownEvent" ResizeMode="CanMinimize"
+        Closing="Window_Closing"
         >
     <Grid>
-        <ListView SelectionMode="Single" ItemsSource="{Binding FallenHeroes}" Background="LightGray" Name="HeroesList" HorizontalAlignment="Left" Height="527" Margin="50,37,0,0" VerticalAlignment="Top" Width="244">
+        <ListView SelectionMode="Single" ItemsSource="{Binding FallenHeroes}" Background="LightGray" Name="HeroesList" HorizontalAlignment="Left" Height="494" Margin="50,70,0,0" VerticalAlignment="Top" Width="244">
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <Border BorderBrush="Black" BorderThickness="2" Width="235">
@@ -19,8 +20,13 @@
                     </Border>
                 </DataTemplate>
             </ListView.ItemTemplate>
+            <ListView.ItemContainerStyle>
+                <Style TargetType="ListViewItem">
+                    <EventSetter Event="MouseDoubleClick" Handler="ListViewItem_MouseDoubleClick"></EventSetter>
+                </Style>
+            </ListView.ItemContainerStyle>
         </ListView>
-        <Label FontSize="16" Content="Heroes" HorizontalAlignment="Left" Margin="50,5,0,0" VerticalAlignment="Top"/>
+        <Label FontSize="16" Content="Heroes" HorizontalAlignment="Left" Margin="50,38,0,0" VerticalAlignment="Top"/>
         <GroupBox Header="Add new hero" HorizontalAlignment="Left" Height="527" Margin="379,37,0,0" VerticalAlignment="Top" Width="350">
             <Grid HorizontalAlignment="Stretch" Height="Auto" Width="Auto" Margin="0,0,0,0" VerticalAlignment="Stretch">
                 <Label Content="Hero name" HorizontalAlignment="Left" Margin="10,15,0,0" VerticalAlignment="Top"/>
@@ -81,32 +87,13 @@
                 <Button Click="ClearChosenQuirksAndDiseasesViews"  Content="Reset" HorizontalAlignment="Center" Margin="0,0,0,5" VerticalAlignment="Bottom" Width="75"/>
             </Grid>
         </GroupBox>
-
+        <ToolBar HorizontalAlignment="Left" Height="33" VerticalAlignment="Top" Width="326">
+            <Label Content="Sort mode:"></Label>
+            <ComboBox Name="SortModeComboBox" DropDownClosed="SortModeComboBox_DropDownClosed" Margin="0,4,0,3.2" Width="70"></ComboBox>
+            <Separator Width="5" Margin="5,0,0,0"></Separator>
+            <Button Click="SaveChangesEvent" Margin="5,0,0,0" Content="Save changes" Height="27" VerticalAlignment="Top" Width="81"/>
+            <Separator Width="5" Height="25"></Separator>
+            <Button Click="ShowChartsEvent" Content="Charts" Width="55" Height="25" Margin="0,1,0,1.2"/>
+        </ToolBar>
     </Grid>
 </Window>
-<!--<ListView.ItemTemplate>
-                <DataTemplate DataType="{x:Type local:HeroDeath}">
-                    <StackPanel Orientation="Horizontal">
-                        <Button Width="50" Height="50" IsEnabled="False" >
-                            <Button.Background>
-                                <ImageBrush ImageSource="HeroPortraits/abomination.png"></ImageBrush>
-                            </Button.Background>
-                            <Button.Style>
-                                <Style TargetType="Button">
-                                    <Setter Property="OverridesDefaultStyle" Value="True"></Setter>
-                                    <Setter Property="Template">
-                                        <Setter.Value>
-                                            <ControlTemplate TargetType="Button">
-                                                <Border Name="border" BorderThickness="1" Padding="4,2" BorderBrush="Black" CornerRadius="3" Background="{TemplateBinding Background}">
-                                                    <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"></ContentPresenter>
-                                                </Border>
-                                            </ControlTemplate>
-                                        </Setter.Value>
-                                    </Setter>
-                                </Style>
-                            </Button.Style>
-                        </Button>
-                        <TextBlock Text="{Binding HeroName}" VerticalAlignment="Center" Margin="25,0,0,0"></TextBlock>
-                    </StackPanel>
-                </DataTemplate>
-            </ListView.ItemTemplate>-->

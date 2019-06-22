@@ -1,5 +1,8 @@
 ﻿
 
+using System.Collections.Generic;
+using System.Collections.ObjectModel;
+
 public enum HeroClass : byte {
     Abomination = 0,
     Antiquarian,
@@ -54,5 +57,22 @@ public enum HeroLevel : byte {
     Veteran,
     Master,
     Champion,
-    Legendary
+    Legend
+}
+
+public enum HeroesSortType : byte {
+    Name,
+    Level,
+    Class
+}
+
+public static class ObservableCollectionExtensions {
+    
+    public static void AddRange<T>(this ObservableCollection<T> observable, List<T> other) {
+        if (other == null) return;
+        foreach (var obj in other) {
+            observable.Add(obj);
+        }
+    }
+
 }

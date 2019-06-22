@@ -10,6 +10,34 @@ using System.Windows.Controls;
 namespace DarkestDungeonMorgueGUI {
     public class HeroDeath {
 
+        public struct HeroInfo {
+            public HeroClass @class;
+            public string name;
+            public HeroLevel level;
+            public string deathCause;
+            public Affliction affliction;
+            public Virtue virtue;
+
+            public HeroInfo(HeroDeath hd) {
+                this.@class = hd.HeroClass;
+                this.name = hd.HeroName;
+                this.level = hd.HeroLevel;
+                this.deathCause = hd.CauseOfDeath;
+                this.affliction = hd.Affliction == null ? global::Affliction.None : hd.Affliction.GetValueOrDefault();
+                this.virtue = hd.Virtue == null ? global::Virtue.None : hd.Virtue.GetValueOrDefault();
+            }
+
+            public override string ToString() {
+                StringBuilder sb = new StringBuilder();
+                sb.Append(this.name).Append("\n");
+                sb.Append(Enum.GetName(typeof(HeroLevel), level)).Append(" ");
+                sb.Append(Enum.GetName(typeof(HeroClass), @class)).Append("\n");
+                sb.Append("Cause of death: ").Append(this.deathCause).Append("\n");
+                sb.Append("Affliction: ").Append(Enum.GetName(typeof(Affliction), this.affliction)).Append("\n");
+                sb.Append("Virtue: ").Append(Enum.GetName(typeof(Virtue), this.virtue)).Append("\n");
+                return sb.ToString();
+            }
+        }
 
         private HeroClass heroClass;
         private string heroName;
@@ -77,5 +105,6 @@ namespace DarkestDungeonMorgueGUI {
 
         public HeroDeath() {}
 
+        public HeroInfo GetHeroInfo() => new HeroInfo(this);
     }
 }

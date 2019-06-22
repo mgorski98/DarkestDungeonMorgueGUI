@@ -29,12 +29,13 @@ namespace DarkestDungeonMorgueGUI
                 uint count = 0;
                 try {
                     count = kills[hero.HeroClass];
-                    kills.Add(hero.HeroClass, ++count);
+                    kills[hero.HeroClass] = ++count;
                 } catch (KeyNotFoundException) {
                     kills.Add(hero.HeroClass, 1u);
                 }
             }
-            IDictionary<String, uint> mappedKills = kills.ToDictionary(e => Enum.GetName(typeof(HeroClass), e.Key).Replace('_', ' '), e => e.Value);
+            IDictionary<String, uint> mappedKills = kills.
+                ToDictionary(e => Enum.GetName(typeof(HeroClass), e.Key).Replace('_', ' '), e => e.Value);
 
 
 
@@ -44,7 +45,7 @@ namespace DarkestDungeonMorgueGUI
 
             CategoryAxis axis = new CategoryAxis() {
                 Key = "Hero classes",
-                Position = AxisPosition.Bottom,
+                Position = AxisPosition.Left,
                 ItemsSource = mappedKills.Keys
             };
 

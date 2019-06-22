@@ -33,8 +33,8 @@ namespace DarkestDungeonMorgueGUI {
         private ObservableCollection<HeroQuirk> ChosenNegativeQuirks;
 
         public MainWindow() {
+            Morgue.InitInstance();
             InitializeComponent();
-            Morgue.GetInstance();
             this.ChosenHeroDiseases = new ObservableCollection<HeroDisease>();
             this.ChosenNegativeQuirks = new ObservableCollection<HeroQuirk>();
             this.ChosenPositiveQuirks = new ObservableCollection<HeroQuirk>();
@@ -54,6 +54,7 @@ namespace DarkestDungeonMorgueGUI {
                 this.ChosenPositiveQuirksListView.ItemsSource = this.ChosenPositiveQuirks;
                 this.ChosenNegativeQuirksListView.ItemsSource = this.ChosenNegativeQuirks;
                 this.ChosenDiseasesListView.ItemsSource = this.ChosenHeroDiseases;
+                this.SortModeComboBox.ItemsSource = Enum.GetValues(typeof(HeroesSortType)).Cast<HeroesSortType>();
             });
         }
 
@@ -76,6 +77,9 @@ namespace DarkestDungeonMorgueGUI {
             this.ChosenNegativeQuirks.Clear();
             this.ChosenPositiveQuirks.Clear();
             this.ChosenHeroDiseases.Clear();
+            this.NegativeQuirksListView.SelectedIndex = -1;
+            this.PositiveQuirksListView.SelectedIndex = -1;
+            this.DiseasesListView.SelectedIndex = -1;
         }
 
         private void ResetCollectionsViews() {
@@ -105,8 +109,8 @@ namespace DarkestDungeonMorgueGUI {
                 return null;
             }
 
-            Affliction? affliction = AfflictionComboBox.SelectedIndex == -1 ? null : AfflictionComboBox.SelectedItem as Affliction?;
-            Virtue? virtue = VirtueComboBox.SelectedIndex == -1 ? null : VirtueComboBox.SelectedItem as Virtue?;
+            Affliction? affliction = AfflictionComboBox.SelectedIndex == -1 ? null : (Affliction?)Enum.Parse(typeof(Affliction), AfflictionComboBox.SelectedItem as string);
+            Virtue? virtue = VirtueComboBox.SelectedIndex == -1 ? null : (Virtue?)Enum.Parse(typeof(Virtue), VirtueComboBox.SelectedItem as string);
 
             HeroDeath hd = new HeroDeath() {
                 Affliction = affliction,
@@ -215,6 +219,60 @@ namespace DarkestDungeonMorgueGUI {
                 ThreadPool.QueueUserWorkItem(o => Morgue.GetInstance().SaveMorgue());
                 MessageBox.Show("Saving morgue to disk...");
             }
+        }
+
+        private void ListViewItem_MouseDoubleClick(object sender, MouseButtonEventArgs e) {
+            if (this.HeroesList.SelectedItem is HeroDeath item) {
+                try {
+                    var x = Application.Current.Windows.OfType<HeroDeathInfoWindow>().ElementAt(0);
+                } catch (ArgumentOutOfRangeException) {
+                    var w = new HeroDeathInfoWindow(item) { Topmost = true };
+                    w.Show();
+                    System.Timers.Timer t = new System.Timers.Timer() {
+                        Interval = 100,
+                        AutoReset = false,
+                        Enabled = true
+                    };
+                    t.Elapsed += (source, _e) => Dispatcher.Invoke(() => w.Topmost = false);
+                    t.Start();
+                }
+            }
+        }
+
+        private void Window_Closing(object sender, System.ComponentModel.CancelEventArgs e) {
+            foreach (var window in Application.Current.Windows) {
+                try {
+                    ((Window)window).Close();
+                } catch (Exception) {}
+            }
+        }
+
+        private void SortModeComboBox_DropDownClosed(object sender, EventArgs e) {
+            HeroesSortType sortType;
+            try {
+                sortType = (HeroesSortType)SortModeComboBox.SelectedItem;
+            } catch (Exception) {
+                return;
+            }
+            Morgue.GetInstance().SortFallenHeroes(sortType);
+            Keyboard.ClearFocus();
+                
+            if (this.HeroesList.Items.Count > 0) {
+                this.HeroesList.ScrollIntoView(this.HeroesList.Items[0]);
+            }
+        }
+
+        private void ShowChartsEvent(object sender, RoutedEventArgs e) {
+            try {
+                var x = Application.Current.Windows.OfType<DeathStatisticsWindow>().ElementAt(0);
+            } catch (ArgumentOutOfRangeException) {
+                new DeathStatisticsWindow().Show();
+            }
+        }
+
+        private void SaveChangesEvent(object sender, RoutedEventArgs e) {
+            ThreadPool.QueueUserWorkItem(o => Morgue.GetInstance().SaveMorgue());
+            MessageBox.Show("Saving fallen heroes...", "Saving", MessageBoxButton.OK);
         }
     }
 }

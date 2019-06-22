@@ -98,5 +98,9 @@
   {
     "DiseaseName": "Wasting Sickness",
     "DiseaseDescription": "-50% Disease Resist"
+  },
+  {
+  	"DiseaseName": "Crimson Curse",
+  	"DiseaseDescription": "Turns the hero into a vampire"
   }
 ]
